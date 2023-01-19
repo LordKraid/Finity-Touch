@@ -3,6 +3,7 @@ header {
   background: rgba(13, 13, 13, 0.6);
   width: 100%;
   padding: 23px 20px 28px 60px;
+  transition: 0.3s;
   z-index: 10;
 }
 header .header-flex {
@@ -23,6 +24,10 @@ header .header-flex .header-right {
 }
 header .header-flex .header-right menu a {
   margin-right: 40px;
+  transition: 0.2s;
+}
+header .header-flex .header-right menu a:hover {
+  text-decoration: underline;
 }
 header .header-flex .header-right .line {
   height: 48px;
@@ -34,4 +39,8 @@ header .header-flex .header-right .language {
 }
 header .header-flex .header-right .button-flex .button_type1 {
   margin-right: 20px;
+}
+
+.scrolled {
+  padding: 8px 20px 8px 60px;
 }/*# sourceMappingURL=header.css.map */

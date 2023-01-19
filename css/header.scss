@@ -5,6 +5,7 @@ header{
     width: 100%;
 
     padding: 23px 20px 28px 60px;
+    transition: 0.3s;
 
     z-index: 10;
 
@@ -26,8 +27,15 @@ header{
             display: flex;
             align-items: center;
 
-            menu a{
-                margin-right: 40px;
+            menu{
+                a{
+                    margin-right: 40px;
+                    transition: 0.2s;
+                }
+
+                a:hover{
+                    text-decoration: underline;
+                }
             }
 
             .line{
@@ -48,4 +56,8 @@ header{
             }
         }
     }
+}
+
+.scrolled{
+    padding: 8px 20px 8px 60px;
 }
