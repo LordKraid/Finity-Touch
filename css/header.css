@@ -14,6 +14,7 @@ header .header-flex {
 header .header-flex .logo-flex {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 header .header-flex .logo-flex img {
   margin-right: 15px;
