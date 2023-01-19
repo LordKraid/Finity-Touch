@@ -1,1 +1,79 @@
-@import url("null.css");/*# sourceMappingURL=index.css.map */
+@import url("null.css");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Montserrat:wght@400;500&display=swap");
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.content {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.button_type1, .button_type2 {
+  padding: 18px 35px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.button_type1 {
+  border: 2px solid #FFFFFF;
+  background: rgba(255, 255, 255, 0);
+}
+
+.button_type2 {
+  background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+}
+
+.main {
+  padding-top: 204px;
+}
+.main .main_flex {
+  display: flex;
+}
+.main .main_flex .main_text h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-size: 147px;
+  line-height: 191px;
+  background: linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 19px;
+}
+.main .main_flex .main_text .main_p1 {
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 10px;
+}
+.main .main_flex .main_text .main_p2 {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 45px;
+  color: #959595;
+  margin-bottom: 40px;
+}
+.main .main_flex .main_text .main_button-flex {
+  display: flex;
+}
+.main .main_flex .main_text .main_button-flex .button_type1 {
+  margin-right: 20px;
+}
+.main .main_flex .main_img {
+  flex-basis: 60%;
+}
+.main .main_flex .main_img .main_img-box {
+  width: 100%;
+}
+.main .main_flex .main_img .main_img-box img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
