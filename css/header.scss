@@ -1,0 +1,51 @@
+header{
+    position: fixed;
+    background: rgba(13, 13, 13, 0.6);
+
+    width: 100%;
+
+    padding: 23px 20px 28px 60px;
+
+    z-index: 10;
+
+    .header-flex{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .logo-flex{
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-right: 15px;
+            }
+        }
+
+        .header-right{
+            display: flex;
+            align-items: center;
+
+            menu a{
+                margin-right: 40px;
+            }
+
+            .line{
+                height: 48px;
+                border-left: 1px solid #959595;
+
+                margin-right: 40px;
+            }
+
+            .language{
+                margin-right: 50px;
+            }
+
+            .button-flex{
+                .button_type1{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+header {
+  position: fixed;
+  background: rgba(13, 13, 13, 0.6);
+  width: 100%;
+  padding: 23px 20px 28px 60px;
+  z-index: 10;
+}
+header .header-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-flex .logo-flex {
+  display: flex;
+  align-items: center;
+}
+header .header-flex .logo-flex img {
+  margin-right: 15px;
+}
+header .header-flex .header-right {
+  display: flex;
+  align-items: center;
+}
+header .header-flex .header-right menu a {
+  margin-right: 40px;
+}
+header .header-flex .header-right .line {
+  height: 48px;
+  border-left: 1px solid #959595;
+  margin-right: 40px;
+}
+header .header-flex .header-right .language {
+  margin-right: 50px;
+}
+header .header-flex .header-right .button-flex .button_type1 {
+  margin-right: 20px;
+}/*# sourceMappingURL=header.css.map */
