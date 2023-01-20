@@ -1,10 +1,14 @@
 @import url("null.css");
 @import url("header.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap');
 
 //font-family: 'Chakra Petch', sans-serif;
 //font-family: 'Montserrat', sans-serif;
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: black;
@@ -20,6 +24,8 @@ body{
     margin: 0 auto;
     padding: 0 35px;
 }
+
+
 
 .button_type1, .button_type2{
     padding: 18px 35px;
@@ -38,8 +44,28 @@ body{
 }
 
 .button_type2{
+    border: #000000 2px solid;
     background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);  
 }
+
+.button_type2:hover{
+    border: #FFFFFF 2px solid;
+}
+
+.button{
+    transition: 0.3s;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+
+.button:active{
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+
 
 .main{
     padding-top: 204px;
@@ -149,6 +175,39 @@ body{
                 letter-spacing: 0.03em;
             }
 
+            .footer-info{
+                display: flex;
+                align-items: flex-end;
+
+                a{
+                    flex-basis: 70%;
+                }
+
+                .footer-info_deco{
+                    display: flex;
+                    align-items: flex-end;
+                    width: 100%;
+
+                    .line-block{
+                        height: 23px;
+                        width: 100%;
+
+                        border-top: 2px dashed #FFFFFF;
+                        border-bottom: 2px solid #FFFFFF;
+                    }
+
+                    h5{
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 180%;
+
+                        font-family: 'Chakra Petch', sans-serif;
+
+                        writing-mode: vertical-rl;
+                    }
+                }
+            }
+
             button{
                 font-weight: 600;
                 font-size: 27px;
@@ -165,11 +224,18 @@ body{
                 display: flex;
                 align-items: center;
 
-                margin-top: 25px;
+                position: relative;
+                left: -40px;
+
+                //margin-top: 25px;
 
                 img{
-                    margin-left: 12px;
+                    margin-left: 18px;
                 }
+            }
+
+            button:hover{
+                background-color: #a355e2;
             }
         }
     }

@@ -1,6 +1,10 @@
 @import url("null.css");
 @import url("header.css");
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   font-family: "Montserrat", sans-serif;
@@ -30,7 +34,25 @@ body {
 }
 
 .button_type2 {
+  border: #000000 2px solid;
   background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+}
+
+.button_type2:hover {
+  border: #FFFFFF 2px solid;
+}
+
+.button {
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.98);
+  transition: 0.1s;
 }
 
 .main {
@@ -116,6 +138,32 @@ body {
   line-height: 30px;
   letter-spacing: 0.03em;
 }
+.section-2 .block-flex .block-flex_info .footer-info {
+  display: flex;
+  align-items: flex-end;
+}
+.section-2 .block-flex .block-flex_info .footer-info a {
+  flex-basis: 70%;
+}
+.section-2 .block-flex .block-flex_info .footer-info .footer-info_deco {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.section-2 .block-flex .block-flex_info .footer-info .footer-info_deco .line-block {
+  height: 23px;
+  width: 100%;
+  border-top: 2px dashed #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+.section-2 .block-flex .block-flex_info .footer-info .footer-info_deco h5 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  font-family: "Chakra Petch", sans-serif;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+}
 .section-2 .block-flex .block-flex_info button {
   font-weight: 600;
   font-size: 27px;
@@ -127,10 +175,14 @@ body {
   border: #FFFFFF 2px solid;
   display: flex;
   align-items: center;
-  margin-top: 25px;
+  position: relative;
+  left: -40px;
 }
 .section-2 .block-flex .block-flex_info button img {
-  margin-left: 12px;
+  margin-left: 18px;
+}
+.section-2 .block-flex .block-flex_info button:hover {
+  background-color: #a355e2;
 }
 .section-2 .block-1 .block-flex_info h2 span {
   color: greenyellow;

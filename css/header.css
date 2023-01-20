@@ -25,10 +25,11 @@ header .header-flex .header-right {
 }
 header .header-flex .header-right menu a {
   margin-right: 40px;
-  transition: 0.2s;
+  transition: 0.1s;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 header .header-flex .header-right menu a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid white;
 }
 header .header-flex .header-right .line {
   height: 48px;

@@ -32,11 +32,12 @@ header{
             menu{
                 a{
                     margin-right: 40px;
-                    transition: 0.2s;
+                    transition: 0.1s;
+                    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.0);
                 }
 
                 a:hover{
-                    text-decoration: underline;
+                    border-bottom: 2px solid rgba($color: #FFFFFF, $alpha: 1.0);
                 }
             }
 
