@@ -192,4 +192,23 @@ body {
 }
 .section-2 .block-3 .block-flex_info h2 span {
   color: orange;
+}
+
+.section-6 {
+  margin-bottom: 280px;
+}
+.section-6 h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: center;
+  margin-bottom: 110px;
+}
+.section-6 .img-box {
+  max-width: 1235px;
+  margin: 0 auto;
+}
+.section-6 .img-box img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
