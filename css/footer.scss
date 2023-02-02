@@ -1,0 +1,107 @@
+footer{
+    border-bottom: 1px solid #FFFFFF;
+
+    .content{
+        max-width: 1550px;
+        margin: 0 auto;
+        padding: 0 35px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .footer-img{
+        flex-basis: 15%;
+        text-align: right;
+
+        img{
+            //width: 100%;
+        }
+    }
+
+    .footer-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+
+        margin-bottom: 50px;
+
+        .menu-flex{
+            display: flex;
+            align-items: center;
+
+            menu{
+                a{
+                    margin-right: 40px;
+                    transition: 0.1s;
+                    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.0);
+                }
+    
+                a:hover{
+                    border-bottom: 2px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                }
+            }
+
+            .line{
+                height: 48px;
+                border-left: 1px solid #959595;
+    
+                margin-right: 40px;
+            }
+
+            .language{
+                margin-right: 50px;
+            }
+        }
+
+        .button-flex{
+            .button_type1{
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .footer-bottom{
+        display: flex;
+        width: 100%;
+
+        padding-bottom: 35px;
+
+        .footer-logo{
+            display: flex;
+
+            flex-basis: 30%;
+
+            h3{
+                font-family: 'Chakra Petch', sans-serif;
+
+                font-weight: 600;
+                font-size: 31.5215px;
+                line-height: 41px;
+            }
+        }
+
+        .footer-text{
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #959595;
+
+            width: 100%;
+        }
+    }
+}
