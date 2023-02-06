@@ -19,11 +19,50 @@ questionBlock.forEach((block => {
 
 //main_section-4 swiper
 new Swiper('.section-4_slider-block', {
-    slidesPerView: 6,
+
+    //spaceBetween: 50,
+
+    breakpoints: {
+        1700: {
+            slidesPerView: 6,
+        },        
+        1450: {
+            slidesPerView: 5,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+        720: {
+            slidesPerView: 3,
+        },
+        375: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.4,
+        }
+    },
 
     loop: true,
+    //freeMode: true,
+})
 
-    //spaceBetween: 100,
+//main_section-1 swiper
+new Swiper('.section-1_swiper-container', {
+    breakpoints: {
+        992: {
+            slidesPerView: 4,
+        },
+        720: {
+            slidesPerView: 3,
+        },
+        350: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.1,
+        }
+    },
 
-    freeMode: true,
+    spaceBetween: 40,
 })

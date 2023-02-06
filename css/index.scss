@@ -75,6 +75,7 @@ body{
 
 .main{
     padding-top: 204px;
+    margin-bottom: 91px;
 
     .main_flex{
         display: flex;
@@ -136,9 +137,93 @@ body{
     }
 }
 
-.section-2{
-    padding-top: 223px;
+.section-1{
+    margin-bottom: 223px;;
 
+    h1{
+        font-family: 'Chakra Petch', sans-serif;
+
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 78px;
+
+        text-align: center;
+
+        margin-bottom: 40px;
+
+        span{
+            color: #F36AFF;
+        }
+    }
+
+    .swiper-container{
+        .swiper-wrapper{
+            .swiper-slide{
+                position: relative;
+
+                margin: 0 auto;
+                text-align: center;
+
+                height: 345px;
+
+                max-width: 350px;
+
+                background: #0D0D0D;
+                
+                border: #C275FF solid 1px;
+                box-shadow: 2px 2px 9px #91009D;
+                border-radius: 60px;
+
+                padding: 22px 21px 23px 30px;
+
+                .slide-content{
+                    img{
+                        margin-bottom: 11px;
+                    }
+    
+                    h3{
+                        font-weight: 600;
+                        font-size: 28px;
+                        line-height: 34px;
+                        text-align: center;
+    
+                        margin-bottom: 19px;
+                    }
+    
+                    p{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+    
+                        margin-bottom: 20px;
+    
+                        max-width: 299px;
+                    }
+    
+                    button{
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+    
+                        background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                        text-fill-color: transparent;
+                    
+                        position: absolute;
+                        left: 43%;
+                        bottom: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-2{
     .block-flex{
         display: flex;
         justify-content: space-between;
@@ -284,7 +369,7 @@ body{
         }
 
         .swiper-slide:not(:last-child){
-            margin: 0 50px;
+            //margin: 0 50px;
         }
     }
 }
@@ -325,7 +410,7 @@ body{
             flex-basis: 55%;
 
             .question-block{
-                background: #000000;
+                background: #0D0D0D;
                 box-shadow: 2px 2px 20px rgba(239, 57, 255, 0.3);
                 border-radius: 10px;
                 border: rgba(239, 57, 255, 0.5) 1px solid;
