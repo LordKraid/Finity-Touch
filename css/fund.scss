@@ -1,0 +1,130 @@
+@import url("null.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("preloader.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+//font-family: 'Chakra Petch', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+    overflow-x: hidden;
+}
+
+.content{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 35px;
+
+    position: relative;
+}
+
+
+
+.button_type1, .button_type2{
+    padding: 18px 35px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.button_type1{
+    border: 2px solid #FFFFFF;
+    background: rgba($color: #FFFFFF, $alpha: 0);
+}
+
+.button_type2{
+    border: #000000 2px solid;
+    background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);  
+}
+
+.button_type2:hover{
+    border: #FFFFFF 2px solid;
+}
+
+.button{
+    transition: 0.3s;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+
+.button:active{
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+
+.main{
+    min-height: 900px;
+
+    padding-top: 238px;
+
+    background: url('../source/img/fund_main-img.svg') 50% 50%/cover no-repeat;
+
+    h1{
+        font-family: 'Chakra Petch', sans-serif;
+
+        font-weight: 600;
+        font-size: 120px;
+        line-height: 140px;
+
+        background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 40%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+        //margin-bottom: 21px;
+    }
+
+    .h1-bottom{
+        padding-left: 180px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+
+        max-width: 465px;
+
+        margin-bottom: 45px;
+    }
+
+    button{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        
+        color: #FFFFFF;
+
+        background-color: rgba($color: #000000, $alpha: 0);
+        border: 1px solid #B2FF0F;
+        border-radius: 60px 0px;
+
+        padding: 18px 35px;
+    }
+
+    .button:hover{
+        background-color: #7eab1c;
+    }
+}
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Finiy Touch</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/fund.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+</head>
+
+<body class="fund">
+
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+    </script>
+
+    <div class="preloader">
+        <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+            d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+            </path>
+        </svg>
+    </div>
+
+    <div class="wrapper">
+
+        <header>
+            <div class="header-flex">
+
+                <a href="index.html">
+                    <div class="logo-flex">
+                        <img src="source/img/header-logo.png" alt="header-logo">
+
+                        <h3>Finity Touch</h3>
+                    </div>
+                </a>
+
+                <div class="header-right">
+                    <menu>
+                        <a href="index.html">Home</a>
+                        <a href="marketplace.html">Marketplace</a>
+                        <a href="token.html">Token</a>
+                        <a href="fund.html">Fund</a>
+                    </menu>
+
+                    <div class="line"></div>
+
+                    <div class="language">
+                        EN
+                    </div>
+
+                    <div class="button-flex">
+                        <a href="#"><button class="button button_type1">Contact Us</button></a>
+
+                        <a href="marketplace.html"><button class="button button_type2">Buy Token</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="content">
+
+                <h1>Finity</h1>
+                <h1 class="h1-bottom">Fund</h1>
+
+                <p>
+                    The Finity Foundation is a fund that fuels the development of new active projects, as well as the possibility of discovering new fragments of the ecosystem.
+                </p>
+
+                <a href="#"><button class="button">
+                    Leave a request
+                </button></a>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="content">
+
+                <div class="footer-content">
+
+                    <div class="footer-top">
+                        <div class="menu-flex">
+                            <menu>
+                                <a href="index.html">Home</a>
+                                <a href="#">Marketplace</a>
+                                <a href="#">Token</a>
+                                <a href="#">Fund</a>
+                            </menu>
+        
+                            <div class="line"></div>
+        
+                            <div class="language">
+                                EN
+                            </div>
+                        </div>
+    
+                        <div class="button-flex">
+                            <a href="#"><button class="button button_type1">Contact Us</button></a>
+    
+                            <a href="#"><button class="button button_type2">Buy Token</button></a>
+                        </div>
+                    </div>
+    
+                    <div class="footer-bottom">
+                        <div class="footer-logo">
+                            <img src="source/img/footer-logo.png" alt="footer-logo">
+    
+                            <h3>Finity Touch</h3>
+                        </div>
+    
+                        <div class="footer-text">
+                            This website is maintained by Tihon Belenkiy. The contents and opinions of this website are those of Finity Touch.<br>
+                            Finity Touch provides links to cryptocurrency exchanges as a service to the public
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-img">
+                    <img src="source/img/footer_coin.png" alt="footer_coin">
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
