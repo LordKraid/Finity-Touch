@@ -20,7 +20,9 @@ questionBlock.forEach((block => {
 //main_section-4 swiper
 new Swiper('.section-4_slider-block', {
 
-    //spaceBetween: 50,
+    //spaceBetween: 100,
+    //slidesPerView: 2,
+    //watchOwerflow: true,
 
     breakpoints: {
         1700: {
@@ -50,13 +52,13 @@ new Swiper('.section-4_slider-block', {
 //main_section-1 swiper
 new Swiper('.section-1_swiper-container', {
     breakpoints: {
-        992: {
+        1300: {
             slidesPerView: 4,
         },
-        720: {
+        970: {
             slidesPerView: 3,
         },
-        350: {
+        650: {
             slidesPerView: 2,
         },
         0: {
@@ -65,4 +67,29 @@ new Swiper('.section-1_swiper-container', {
     },
 
     spaceBetween: 40,
+})
+
+//main_section-3 swiper
+new Swiper('.section-3_swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 47,
+    //slidesPerColumn: 2,
+    //gridRows: 2,
+
+    /*
+    breakpoints: {
+        1300: {
+            slidesPerView: 4,
+        },
+        970: {
+            slidesPerView: 3,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.1,
+        }
+    },
+    */
 })
