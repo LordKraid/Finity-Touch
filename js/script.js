@@ -111,3 +111,12 @@ new Swiper('.fund .section-1_swiper-container', {
         }
     },
 })
+
+//fund_section-3 question
+const questionBlockFund = document.querySelectorAll('.fund .section-3 .question-block')
+
+questionBlockFund.forEach((block => {
+    block.addEventListener("click", function() {
+        this.classList.toggle('hide')
+    })
+}))
