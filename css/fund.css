@@ -97,4 +97,44 @@ body {
 }
 .main .button:hover {
   background-color: #7eab1c;
+}
+
+.section-1 {
+  position: relative;
+  top: -50px;
+}
+.section-1 .swiper-container .swiper-wrapper .swiper-slide {
+  position: relative;
+  padding: 25px 25px 0 25px;
+  margin: 0 auto;
+  text-align: center;
+  background: #0D0D0D;
+  border: 1px solid #169D00;
+  box-shadow: 2px 2px 9px #169D00;
+  border-radius: 60px;
+  width: 480px;
+  height: 283px;
+}
+.section-1 .swiper-container .swiper-wrapper .swiper-slide img {
+  margin-bottom: 15px;
+}
+.section-1 .swiper-container .swiper-wrapper .swiper-slide p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.section-1 .swiper-container .swiper-wrapper .swiper-slide button {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  position: absolute;
+  bottom: 19px;
+  left: 43%;
 }/*# sourceMappingURL=fund.css.map */

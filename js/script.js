@@ -18,7 +18,7 @@ questionBlock.forEach((block => {
 }))
 
 //main_section-4 swiper
-new Swiper('.section-4_slider-block', {
+new Swiper('.index .section-4_slider-block', {
 
     //spaceBetween: 100,
     //slidesPerView: 2,
@@ -50,7 +50,7 @@ new Swiper('.section-4_slider-block', {
 })
 
 //main_section-1 swiper
-new Swiper('.section-1_swiper-container', {
+new Swiper('.index .section-1_swiper-container', {
     breakpoints: {
         1300: {
             slidesPerView: 4,
@@ -70,7 +70,7 @@ new Swiper('.section-1_swiper-container', {
 })
 
 //main_section-3 swiper
-new Swiper('.section-3_swiper-container', {
+new Swiper('index .section-3_swiper-container', {
     slidesPerView: 4,
     spaceBetween: 47,
     //slidesPerColumn: 2,
@@ -92,4 +92,22 @@ new Swiper('.section-3_swiper-container', {
         }
     },
     */
+})
+
+
+//fund_section-1 swiper
+new Swiper('.fund .section-1_swiper-container', {
+    spaceBetween: 40,
+
+    breakpoints: {
+        1350: {
+            slidesPerView: 3,
+        },
+        900: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.1,
+        }
+    },
 })
