@@ -134,7 +134,7 @@ body{
     position: relative;
     top: -50px;
 
-    margin-bottom: 78px;
+    margin-bottom: 185px;
 
     .swiper-container{
         .swiper-wrapper{
@@ -186,3 +186,34 @@ body{
     }
 }
 
+.section-2{
+    text-align: center;
+
+    margin-bottom: 200px;
+
+    h1{
+        font-weight: 600;
+        font-size: 69px;
+        line-height: 84px;
+
+        margin-bottom: 21px;
+
+        span{
+            background: linear-gradient(117.47deg, #86AFFE 7.39%, #A57AFF 23.36%, #FB84FF 38.85%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 155%;
+
+        max-width: 1113px;
+
+        margin: 0 auto 66px;
+    }
+}
