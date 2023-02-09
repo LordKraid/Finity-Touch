@@ -166,6 +166,9 @@ body {
   max-width: 1113px;
   margin: 0 auto 66px;
 }
+.section-2 .section-2_img img {
+  width: 80%;
+}
 
 .section-3 {
   margin-bottom: 286px;
@@ -347,4 +350,103 @@ body {
 
 footer {
   border-top: 1px solid #FFFFFF;
+}
+
+@media (max-width: 1150px) {
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .section-2 {
+    text-align: center;
+  }
+  .section-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .section-2 p {
+    font-size: 21px;
+    line-height: 155%;
+  }
+  .section-2 .section-2_img img {
+    width: 90%;
+  }
+  .section-3 h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .section-3 p {
+    font-size: 21px;
+  }
+  .section-3 .section-3_roadmap img {
+    width: 80%;
+  }
+  .section-4 .coin-left {
+    display: none;
+  }
+  .section-4 .coin-right {
+    display: none;
+  }
+  .section-4 .contact-box h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .section-4 .contact-box .forms form input {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .section-4 .contact-box .forms form input::-moz-placeholder {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    color: #959595;
+  }
+  .section-4 .contact-box .forms form input:-ms-input-placeholder {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    color: #959595;
+  }
+  .section-4 .contact-box .forms form input::placeholder {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    color: #959595;
+  }
+  .section-4 .contact-box button {
+    padding: 17px 73px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 940px) {
+  .section-5 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .section-2 {
+    text-align: center;
+  }
+  .section-2 h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .section-2 p {
+    font-size: 16px;
+    line-height: 155%;
+  }
+  .section-2 .section-2_img img {
+    width: 90%;
+  }
+  .section-3 h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .section-3 p {
+    font-size: 16px;
+  }
+  .section-3 .section-3_roadmap img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=token.css.map */

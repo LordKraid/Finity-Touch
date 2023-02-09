@@ -528,4 +528,111 @@ body {
 }
 .section-7 .contact-box button:hover {
   background-color: #a355e2;
+}
+
+@media (max-width: 1150px) {
+  .section-5 .content-flex {
+    flex-direction: column;
+  }
+  .section-5 .content-flex .title h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .section-5 .content-flex .title .title-img {
+    text-align: center;
+  }
+  .section-5 .content-flex .title .title-img img {
+    width: 90%;
+  }
+  .section-5 .content-flex .questions .question-block .title-flex h3 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .section-5 .content-flex .questions .question-block p {
+    font-size: 16px;
+  }
+  .section-5 .content-flex .questions .hide p {
+    opacity: 0;
+    font-size: 0;
+    margin-top: 0;
+  }
+  .section-6 h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .section-6 .img-box {
+    text-align: center;
+  }
+  .section-6 .img-box img {
+    width: 80%;
+  }
+  .section-7 .coin-left {
+    display: none;
+  }
+  .section-7 .coin-right {
+    display: none;
+  }
+  .section-7 .contact-box h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .section-7 .contact-box .forms form input {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .section-7 .contact-box .forms form input::-moz-placeholder {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    color: #959595;
+  }
+  .section-7 .contact-box .forms form input:-ms-input-placeholder {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    color: #959595;
+  }
+  .section-7 .contact-box .forms form input::placeholder {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    color: #959595;
+  }
+  .section-7 .contact-box button {
+    padding: 17px 73px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .section-5 .content-flex {
+    flex-direction: column;
+  }
+  .section-5 .content-flex .title h1 {
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+  }
+  .section-5 .content-flex .questions .question-block .title-flex h3 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .section-5 .content-flex .questions .question-block p {
+    font-size: 14px;
+  }
+  .section-5 .content-flex .questions .hide p {
+    opacity: 0;
+    font-size: 0;
+    margin-top: 0;
+  }
+  .section-6 h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .section-6 .img-box {
+    text-align: center;
+  }
+  .section-6 .img-box img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=index.css.map */

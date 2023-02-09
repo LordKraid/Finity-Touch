@@ -192,6 +192,11 @@ body{
     .section-2_roadmap{
         img{
             width: 100%;
+            text-align: center;
+        }
+
+        .img-adapt{
+            display: none;
         }
     }
 }
@@ -393,6 +398,67 @@ body{
 
 
 @media(max-width: 1150px){
+    .main{
+        min-height: 900px;
+        margin: 0 auto;
+        text-align: center;
+
+        //background: url('../source/img/fund_main-img.svg') 50% 50%/250% 250% no-repeat;
+
+        padding-top: 700px;
+
+        h1{
+            font-family: 'Chakra Petch', sans-serif;
+    
+            font-weight: 600;
+            font-size: 120px;
+            line-height: 140px;
+    
+            background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 40%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+    
+            //margin-bottom: 21px;
+        }
+    
+        .h1-bottom{
+            text-align: right;
+            max-width: 465px;
+        }
+    
+        p{
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+
+            margin: 0 auto 3.3%;
+        }
+    
+        button{
+            font-size: 22px;
+            line-height: 27px;
+            
+            color: #FFFFFF;
+
+            padding: 18px 35px;
+        }
+    }
+
+    .section-1{
+        .swiper-container{
+            .swiper-wrapper{
+                .swiper-slide{    
+                    p{
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+    }
+
     .section-3{    
         .content-flex{
             flex-direction: column;
@@ -486,14 +552,37 @@ body{
     }
 }
 
+@media(max-width: 850px){
+
+}
+
 @media(max-width: 600px){
+    .section-2{
+        .section-2_roadmap{
+            img{
+                width: 100%;
+            }
+
+            .img{
+                display: none;
+            }
+
+            .img-adapt{
+                display: block;
+
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+    }
+
     .section-3{    
         .content-flex{
             flex-direction: column;
     
             .title{
                 h1{
-                    font-size: 30px;
+                    font-size: 40px;
                     line-height: 39px;
                     letter-spacing: 0.02em;
                 }
