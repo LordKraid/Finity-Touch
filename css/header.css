@@ -46,4 +46,22 @@ header .header-flex .header-right .button-flex .button_type1 {
 
 .scrolled {
   padding: 8px 20px 8px 60px;
+}
+
+@media (max-width: 1450px) {
+  header .header-flex .header-right {
+    display: flex;
+  }
+  header .header-flex .header-right menu {
+    display: none;
+  }
+  header .header-flex .header-right .line {
+    display: none;
+  }
+  header .header-flex .header-right .language {
+    display: none;
+  }
+  header .header-flex .header-right .button-flex {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */
