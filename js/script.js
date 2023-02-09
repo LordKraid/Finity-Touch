@@ -70,7 +70,7 @@ new Swiper('.index .section-1_swiper-container', {
 })
 
 //main_section-3 swiper
-new Swiper('index .section-3_swiper-container', {
+new Swiper('.index .section-3_swiper-container', {
     slidesPerView: 4,
     spaceBetween: 47,
     //slidesPerColumn: 2,
