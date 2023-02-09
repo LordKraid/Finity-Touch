@@ -75,7 +75,7 @@ body{
 .main{
     min-height: 900px;
 
-    padding-top: 238px;
+    padding-top: 11%;
 
     background: url('../source/img/fund_main-img.svg') 50% 50%/cover no-repeat;
 
@@ -107,7 +107,7 @@ body{
 
         max-width: 465px;
 
-        margin-bottom: 45px;
+        margin-bottom: 3.3%;
     }
 
     button{
@@ -134,14 +134,14 @@ body{
     position: relative;
     top: -50px;
 
-    margin-bottom: 78px;
+    margin-bottom: 4%;
 
     .swiper-container{
         .swiper-wrapper{
             .swiper-slide{
                 position: relative;
 
-                padding: 25px 25px 0 25px;
+                padding: 1.8% 1.8% 0 1.8%;
 
                 margin: 0 auto;
                 text-align: center;
@@ -151,11 +151,11 @@ body{
                 box-shadow: 2px 2px 9px #169D00;
                 border-radius: 60px;
 
-                width: 480px;
+                //width: 480px;
                 height: 283px;
 
                 img{
-                    margin-bottom: 15px;
+                    margin-bottom: 4%;
                 }
 
                 p{
@@ -178,7 +178,7 @@ body{
                     text-fill-color: transparent;
 
                     position: absolute;
-                    bottom: 19px;
+                    bottom: 7%;
                     left: 43%;
                 }
             }
@@ -187,7 +187,7 @@ body{
 }
 
 .section-2{
-    margin-bottom: 161px;
+    margin-bottom: 10.5%;
 
     .section-2_roadmap{
         img{
@@ -197,7 +197,7 @@ body{
 }
 
 .section-3{
-    margin-bottom: 323px;
+    margin-bottom: 20%;
 
     .content-flex{
         display: flex;
@@ -237,7 +237,7 @@ body{
                 border-radius: 10px;
                 border: rgba(85, 255, 57, 0.5) 1px solid;
 
-                padding: 30px 37px 30px 20px;
+                padding: 4% 5% 4% 2.8%;
 
                 transition: 0.5s;
 
@@ -264,7 +264,7 @@ body{
                     opacity: 1;
                     transition: 0.3s;
 
-                    margin-top: 20px;
+                    margin-top: 3%;
                 }
             }
 
@@ -279,20 +279,19 @@ body{
         }
 
         .questions .question-block:not(:last-child){
-            margin-bottom: 30px;
+            margin-bottom: 4%;
         }
     }
 }
 
 .section-4{
-    margin-bottom: 108px;
+    margin-bottom: 7%;
     position: relative;
 
     .coin-left{
         position: absolute;
 
         left: 0;
-
 
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
@@ -318,7 +317,9 @@ body{
             font-size: 50px;
             line-height: 61px;
 
-            margin-bottom: 108px;
+            margin-bottom: 14%;
+
+            text-align: center;
         }
 
         .buttons-block{
@@ -326,7 +327,7 @@ body{
             align-items: center;
             justify-content: space-around;
 
-            margin-bottom: 108px;
+            margin-bottom: 14%;
 
             button{
                 filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
@@ -386,6 +387,196 @@ body{
 
             left: -30px;
             top: 57%;
+        }
+    }
+}
+
+
+@media(max-width: 1150px){
+    .section-3{    
+        .content-flex{
+            flex-direction: column;
+    
+            .title{
+                h1{
+                    font-size: 50px;
+                    line-height: 65px;
+                }
+    
+                .title-img{
+                    text-align: center;
+
+                    img{
+                        width: 90%;
+                    }
+                }
+            }
+    
+            .questions{
+                .question-block{
+                    .title-flex{
+                        h3{
+                            font-size: 21px;
+                            line-height: 21px;
+                        }
+                    }
+    
+                    p{
+                        font-size: 16px;
+                    }
+                }
+
+                .hide{
+                    p{
+                        opacity: 0;
+                        font-size: 0;
+    
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-4{
+    
+        .coin-left{
+            display: none;
+        }
+    
+        .coin-right{
+            display: none;
+        }
+    
+        .section-4_content{    
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+            }
+    
+            .buttons-block{
+                button{
+                    font-size: 26px;
+                    line-height: 30px;
+    
+                    padding: 15px 60px;
+                }
+            }
+    
+            .icons-block{
+                .icons-flex{
+
+                }
+            }
+    
+            .scobka-top{
+                position: absolute;
+    
+                top: -35px;
+                right: 10px;
+            }
+    
+            .scobka-bottom{
+                position: absolute;
+    
+                left: 10px;
+                top: 50%;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .section-3{    
+        .content-flex{
+            flex-direction: column;
+    
+            .title{
+                h1{
+                    font-size: 30px;
+                    line-height: 39px;
+                    letter-spacing: 0.02em;
+                }
+            }
+
+            .questions{
+                .question-block{
+                    .title-flex{
+                        h3{
+                            font-size: 18px;
+                            line-height: 21px;
+                        }
+                    }
+    
+                    p{
+                        font-size: 14px;
+                    }
+                }
+
+                .hide{
+                    p{
+                        opacity: 0;
+                        font-size: 0;
+    
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-4{
+    
+        .coin-left{
+            display: none;
+        }
+    
+        .coin-right{
+            display: none;
+        }
+    
+        .section-4_content{    
+            h1{
+                display: none;
+            }
+    
+            .buttons-block{
+                button{
+                    //font-size: 33.0512px;
+                    //line-height: 40px;
+    
+                    padding: 15px 30px;
+                }
+            }
+    
+            .icons-block{
+                flex-direction: column;
+                width: 100%;
+                
+
+                .icons-flex{
+                    width: 100%;
+                    justify-content: space-around;
+                }
+
+                .icons-flex:not(:last-child){
+                    margin-bottom: 8%;
+                }
+            }
+    
+            .scobka-top{
+                position: absolute;
+    
+                top: -50px;
+                right: 15px;
+            }
+    
+            .scobka-bottom{
+                position: absolute;
+    
+                left: 15px;
+                top: 30px;
+            }
         }
     }
 }
