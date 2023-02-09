@@ -73,4 +73,43 @@ footer .footer-bottom .footer-text {
   line-height: 21px;
   color: #959595;
   width: 100%;
+}
+
+@media (max-width: 1450px) {
+  footer {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  footer .footer-img {
+    display: none;
+    flex-basis: 15%;
+  }
+  footer .footer-top {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  footer .footer-top .menu-flex menu {
+    flex-direction: column;
+  }
+  footer .footer-top .menu-flex .line {
+    display: none;
+  }
+  footer .footer-top .menu-flex .language {
+    display: none;
+  }
+  footer .footer-top .button-flex .button_type1 {
+    margin-right: 20px;
+  }
+  footer .footer-bottom .footer-logo {
+    display: none;
+    flex-basis: 30%;
+  }
+  footer .footer-bottom .footer-logo h3 {
+    font-size: 31.5215px;
+    line-height: 41px;
+  }
+  footer .footer-bottom .footer-text {
+    font-size: 17px;
+    line-height: 21px;
+  }
 }/*# sourceMappingURL=footer.css.map */
