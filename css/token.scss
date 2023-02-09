@@ -75,7 +75,7 @@ body{
 .main{
     min-height: 900px;
 
-    padding-top: 238px;
+    padding-top: 11%;
 
     background: url('../source/img/token_main-back.svg') 50% 50%/cover no-repeat;
 
@@ -592,6 +592,7 @@ footer{
 
             .img-adapt{
                 display: block;
+                margin: 0 auto;
             }
         }
     }

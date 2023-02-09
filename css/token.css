@@ -61,7 +61,7 @@ body {
 
 .main {
   min-height: 900px;
-  padding-top: 238px;
+  padding-top: 11%;
   background: url("../source/img/token_main-back.svg") 50% 50%/cover no-repeat;
 }
 .main h1 {
@@ -191,6 +191,9 @@ body {
 }
 .section-3 .section-3_roadmap img {
   width: 100%;
+}
+.section-3 .section-3_roadmap .img-adapt {
+  display: none;
 }
 
 .section-4 {
@@ -448,5 +451,12 @@ footer {
   }
   .section-3 .section-3_roadmap img {
     width: 80%;
+  }
+  .section-3 .section-3_roadmap .img {
+    display: none;
+  }
+  .section-3 .section-3_roadmap .img-adapt {
+    display: block;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=token.css.map */
