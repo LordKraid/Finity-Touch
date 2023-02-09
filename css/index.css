@@ -466,6 +466,26 @@ body {
   border-bottom: 2px solid #FFFFFF;
   text-align: left;
   position: relative;
+  /*
+  label{
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 34px;
+
+      color: #959595;
+
+      position: absolute;
+
+      bottom: 20px;
+
+      transition: 0.3s;
+  }*/
+  /*
+  input:focus ~ .label,
+  input:not(:placeholder-shown) ~ .label {
+      transform: translateY(-30px) translateX(10px) scale(0.75);
+      //top: 15px;
+  }*/
 }
 .section-7 .contact-box .forms form input {
   padding: 41px 0 20px 10px;
@@ -477,24 +497,23 @@ body {
   color: #FFFFFF;
   width: 100%;
 }
-.section-7 .contact-box .forms form label {
+.section-7 .contact-box .forms form input::-moz-placeholder {
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
   color: #959595;
-  position: absolute;
-  bottom: 20px;
-  transition: 0.3s;
 }
-.section-7 .contact-box .forms form .input:not(:-moz-placeholder-shown) ~ .label {
-  transform: translateY(-30px) translateX(10px) scale(0.75);
+.section-7 .contact-box .forms form input:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #959595;
 }
-.section-7 .contact-box .forms form .input:not(:-ms-input-placeholder) ~ .label {
-  transform: translateY(-30px) translateX(10px) scale(0.75);
-}
-.section-7 .contact-box .forms form .input:focus ~ .label,
-.section-7 .contact-box .forms form .input:not(:placeholder-shown) ~ .label {
-  transform: translateY(-30px) translateX(10px) scale(0.75);
+.section-7 .contact-box .forms form input::placeholder {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #959595;
 }
 .section-7 .contact-box button {
   border-radius: 0px 60px;
