@@ -254,6 +254,10 @@ body{
         img{
             width: 100%;
         }
+
+        .img-adapt{
+            display: none;
+        }
     }
 }
 
@@ -580,6 +584,14 @@ footer{
         .section-3_roadmap{
             img{
                 width: 80%;
+            }
+
+            .img{
+                display: none;
+            }
+
+            .img-adapt{
+                display: block;
             }
         }
     }
