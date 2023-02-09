@@ -165,4 +165,66 @@ body {
   line-height: 155%;
   max-width: 1113px;
   margin: 0 auto 66px;
+}
+
+.section-5 {
+  text-align: center;
+  margin-bottom: 118px;
+}
+.section-5 h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 83px;
+  margin-bottom: 25px;
+}
+.section-5 h1 span {
+  background: linear-gradient(116.77deg, #FC84FF 3.43%, #54D1FA 38.39%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.section-5 h5 {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  margin-bottom: 70px;
+}
+.section-5 .adress-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 863px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+}
+.section-5 .adress-block p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.section-5 .adress-block button {
+  display: flex;
+  align-items: center;
+  padding: 24px 46px 20px;
+  border: rgba(0, 0, 0, 0) 2px solid;
+  background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.section-5 .adress-block button img {
+  margin-right: 14px;
+}
+.section-5 .adress-block button:hover {
+  border: #FFFFFF 2px solid;
+}
+
+footer {
+  border-top: 1px solid #FFFFFF;
 }/*# sourceMappingURL=token.css.map */
