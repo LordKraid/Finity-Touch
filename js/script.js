@@ -120,3 +120,22 @@ questionBlockFund.forEach((block => {
         this.classList.toggle('hide')
     })
 }))
+
+
+
+//token_section-1 swiper
+new Swiper('.token .section-1_swiper-container', {
+    spaceBetween: 40,
+
+    breakpoints: {
+        1350: {
+            slidesPerView: 3,
+        },
+        900: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.1,
+        }
+    },
+})

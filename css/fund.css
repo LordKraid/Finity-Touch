@@ -76,7 +76,8 @@ body {
   text-fill-color: transparent;
 }
 .main .h1-bottom {
-  padding-left: 180px;
+  text-align: right;
+  max-width: 465px;
 }
 .main p {
   font-weight: 400;
@@ -91,8 +92,9 @@ body {
   line-height: 27px;
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #B2FF0F;
+  border: 1px solid rgb(178, 255, 15);
   border-radius: 60px 0px;
+  filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(178, 255, 15, 0.5));
   padding: 18px 35px;
 }
 .main .button:hover {
@@ -102,6 +104,7 @@ body {
 .section-1 {
   position: relative;
   top: -50px;
+  margin-bottom: 78px;
 }
 .section-1 .swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
@@ -139,6 +142,9 @@ body {
   left: 43%;
 }
 
+.section-3 {
+  margin-bottom: 323px;
+}
 .section-3 .content-flex {
   display: flex;
 }
@@ -199,4 +205,82 @@ body {
 }
 .section-3 .content-flex .questions .question-block:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.section-4 {
+  margin-bottom: 108px;
+  position: relative;
+}
+.section-4 .coin-left {
+  position: absolute;
+  left: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.section-4 .coin-right {
+  position: absolute;
+  right: 0;
+  top: -100px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.section-4 .section-4_content {
+  max-width: 820px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+.section-4 .section-4_content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 108px;
+}
+.section-4 .section-4_content .buttons-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 108px;
+}
+.section-4 .section-4_content .buttons-block button {
+  filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
+  border-radius: 0px 67.6047px;
+  font-weight: 600;
+  font-size: 33.0512px;
+  line-height: 40px;
+  color: #FFFFFF;
+  padding: 15px 60px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px #FFFFFF;
+}
+.section-4 .section-4_content .buttons-block button:hover {
+  background-color: #A57AFF;
+}
+.section-4 .section-4_content .icons-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-4 .section-4_content .icons-block .icons-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 44%;
+}
+.section-4 .section-4_content .icons-block .icons-flex a {
+  transition: 0.3s;
+}
+.section-4 .section-4_content .icons-block .icons-flex a:hover {
+  transform: scale(1.1);
+}
+.section-4 .section-4_content .icons-block .icons-flex a:active {
+  transform: scale(0.9);
+}
+.section-4 .section-4_content .scobka-top {
+  position: absolute;
+  top: -50px;
+  right: -40px;
+}
+.section-4 .section-4_content .scobka-bottom {
+  position: absolute;
+  left: -30px;
+  top: 57%;
 }/*# sourceMappingURL=fund.css.map */

@@ -232,6 +232,7 @@ body {
   color: #FFFFFF;
   border-radius: 60px 0px;
   padding: 22px 20px;
+  filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
   background-color: rgba(0, 0, 0, 0);
   border: #FFFFFF 2px solid;
   display: flex;
@@ -315,6 +316,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid #FFFFFF;
   border-radius: 50px 0px;
+  filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
   padding: 18px 25px;
   font-weight: 600;
   font-size: 22px;
@@ -498,6 +500,7 @@ body {
   border-radius: 0px 60px;
   border: 2px solid #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
+  filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
   padding: 17px 73px;
   font-weight: 600;
   font-size: 28px;
