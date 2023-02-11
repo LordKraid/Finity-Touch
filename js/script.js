@@ -46,7 +46,8 @@ new Swiper('.index .section-4_slider-block', {
     },
 
     loop: true,
-    //freeMode: true,
+    freeMode: true,
+    aut
 })
 
 //main_section-1 swiper
