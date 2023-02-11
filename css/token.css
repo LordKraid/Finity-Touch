@@ -62,7 +62,7 @@ body {
 .main {
   min-height: 900px;
   padding-top: 11%;
-  background: url("../source/img/token_main-back.svg") 50% 50%/cover no-repeat;
+  background: url("../source/img/token_main_back.gif") 50% 50%/cover no-repeat;
 }
 .main h1 {
   font-family: "Chakra Petch", sans-serif;
@@ -266,12 +266,6 @@ body {
   line-height: 34px;
   color: #959595;
 }
-.section-4 .contact-box .forms form input:-ms-input-placeholder {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 34px;
-  color: #959595;
-}
 .section-4 .contact-box .forms form input::placeholder {
   font-weight: 500;
   font-size: 28px;
@@ -399,12 +393,6 @@ footer {
     line-height: 30px;
   }
   .section-4 .contact-box .forms form input::-moz-placeholder {
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 30px;
-    color: #959595;
-  }
-  .section-4 .contact-box .forms form input:-ms-input-placeholder {
     font-weight: 500;
     font-size: 21px;
     line-height: 30px;

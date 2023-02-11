@@ -222,8 +222,7 @@ body {
   font-size: 19px;
   line-height: 180%;
   font-family: "Chakra Petch", sans-serif;
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
 }
 .section-2 .block-flex .block-flex_info button {
   font-weight: 600;
@@ -503,12 +502,6 @@ body {
   line-height: 34px;
   color: #959595;
 }
-.section-7 .contact-box .forms form input:-ms-input-placeholder {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 34px;
-  color: #959595;
-}
 .section-7 .contact-box .forms form input::placeholder {
   font-weight: 500;
   font-size: 28px;
@@ -581,12 +574,6 @@ body {
     line-height: 30px;
   }
   .section-7 .contact-box .forms form input::-moz-placeholder {
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 30px;
-    color: #959595;
-  }
-  .section-7 .contact-box .forms form input:-ms-input-placeholder {
     font-weight: 500;
     font-size: 21px;
     line-height: 30px;

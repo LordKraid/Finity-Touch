@@ -62,7 +62,7 @@ body {
 .main {
   min-height: 900px;
   padding-top: 11%;
-  background: url("../source/img/fund_main-img.svg") 50% 50%/cover no-repeat;
+  background: url("../source/img/fund_main_back.gif") 50% 50%/cover no-repeat;
 }
 .main h1 {
   font-family: "Chakra Petch", sans-serif;
