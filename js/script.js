@@ -47,7 +47,12 @@ new Swiper('.index .section-4_slider-block', {
 
     loop: true,
     freeMode: true,
-    aut
+    autoplay: {
+        delay: 0,
+        OnInteraction: false
+    },
+
+    speed: 3000
 })
 
 //main_section-1 swiper
