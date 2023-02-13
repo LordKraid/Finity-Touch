@@ -20,7 +20,7 @@ questionBlock.forEach((block => {
 //main_section-4 swiper
 new Swiper('.index .section-4_slider-block', {
 
-    //spaceBetween: 100,
+    spaceBetween: 100,
     //slidesPerView: 2,
     //watchOwerflow: true,
 
