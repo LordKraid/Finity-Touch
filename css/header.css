@@ -5,7 +5,7 @@ header {
           backdrop-filter: blur(12px);
   width: 100%;
   max-width: 100vw;
-  padding: 23px 20px 28px 60px;
+  padding: 1.4% 1.2% 2% 3%;
   transition: 0.3s;
   z-index: 20;
 }
