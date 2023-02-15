@@ -158,6 +158,8 @@ body{
     }
 
     .swiper-container{
+        overflow: hidden;
+
         .swiper-wrapper{
             .swiper-slide{
                 position: relative;
@@ -370,6 +372,7 @@ body{
 
     .section-3_swiper-container{
         margin-bottom: 5.5%;
+        overflow: hidden;
 
         .swiper-wrapper{
             .swiper-slide{

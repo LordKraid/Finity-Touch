@@ -41,6 +41,23 @@ footer{
 
         margin-bottom: 3.8%;
 
+        .footer-logo-adapt{
+            display: none;
+            margin-bottom: 18px;
+            padding: 5px;
+
+            img{
+                width: 100%;
+                margin-right: 10px;
+            }
+
+            h3{
+                font-weight: 500;
+                font-size: 27px;
+                line-height: 40px;
+            }
+        }
+
         .menu-flex{
             display: flex;
             align-items: center;
@@ -70,6 +87,8 @@ footer{
         }
 
         .button-flex{
+            display: flex;
+
             .button_type1{
                 margin-right: 20px;
             }
@@ -84,6 +103,7 @@ footer{
 
         .footer-logo{
             display: flex;
+            align-items: center;
 
             flex-basis: 30%;
 
@@ -93,6 +113,8 @@ footer{
                 font-weight: 600;
                 font-size: 31.5215px;
                 line-height: 41px;
+
+                margin-left: 13px;
             }
         }
 
@@ -176,10 +198,145 @@ footer{
     }
 }
 
-@media(max-width: 850px){
+@media(max-width: 1050px){
+    footer{    
+        .footer-top{
+            flex-direction: column;
+            text-align: center;
 
+            margin-bottom: 24px;
+
+            .footer-logo-adapt{
+                display: flex;
+                align-items: center;
+
+                margin-top: 18px;
+
+                img{
+                    flex-basis: 15%;
+                }
+
+                h3{
+                    flex-basis: 85%;
+                }
+            }
+    
+            .menu-flex{
+                margin-bottom: 24px;
+
+                menu{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+                    a{
+                        margin: 0;
+                        padding: 10px 20px;
+
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 40px;
+
+                        transition: 0.3s;
+                        
+                        border-radius: 60px;
+                        border: 0.5px solid rgba($color: #FFFFFF, $alpha: 0);
+                    }
+
+                    a:hover{
+                        border: 0.5px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    
+                        background-color: #0D0D0D;
+                    }
+                    
+                        a:active{                    
+                        background-color: #4a4a4a;
+                    }
+
+                    a:not(:last-child){
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+    
+            .button-flex{
+                .button_type1{
+                    margin-right: 20px;
+                }
+
+                button{
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 30px;
+
+                    padding: 18px 20px;
+                }
+            }
+        }
+    
+        .footer-bottom{    
+            .footer-text{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+    }
 }
 
 @media(max-width: 600px){
+    footer{    
+        .footer-top{
+            flex-direction: column;
+            text-align: center;
+
+            margin-bottom: 24px;
     
+            .menu-flex{
+                margin-bottom: 24px;
+
+                menu{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+                    a{
+                        margin: 0;
+
+                        font-weight: 500;
+                        font-size: 21px;
+                        line-height: 25px;
+                    }
+
+                    a:not(:last-child){
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+    
+            .button-flex{
+                .button_type1{
+                    margin-right: 20px;
+                }
+
+                button{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                    padding: 14px 15px;
+                }
+            }
+        }
+    
+        .footer-bottom{    
+            .footer-text{
+                font-weight: 500;
+                font-size: 9px;
+                line-height: 11px;
+                text-align: center;
+            }
+        }
+    }
 }

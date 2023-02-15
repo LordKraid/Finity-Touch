@@ -121,6 +121,9 @@ body {
 .section-1 h1 span {
   color: #F36AFF;
 }
+.section-1 .swiper-container {
+  overflow: hidden;
+}
 .section-1 .swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
   margin: 0 auto;
@@ -269,6 +272,7 @@ body {
 }
 .section-3 .section-3_swiper-container {
   margin-bottom: 5.5%;
+  overflow: hidden;
 }
 .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide {
   max-width: 280px;
