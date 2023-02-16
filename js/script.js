@@ -68,7 +68,7 @@ new Swiper('.index .section-1_swiper-container', {
             slidesPerView: 2,
         },
         0: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.2,
         }
     },
 
@@ -113,7 +113,7 @@ new Swiper('.fund .section-1_swiper-container', {
             slidesPerView: 2,
         },
         0: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.2,
         }
     },
 })
@@ -141,7 +141,7 @@ new Swiper('.token .section-1_swiper-container', {
             slidesPerView: 2,
         },
         0: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.2,
         }
     },
 })

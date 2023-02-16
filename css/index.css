@@ -134,7 +134,6 @@ body {
   margin: 0 auto;
   text-align: center;
   height: 345px;
-  max-width: 350px;
   background: #0D0D0D;
   border: #C275FF solid 1px;
   box-shadow: 2px 2px 9px #91009D;
@@ -157,6 +156,7 @@ body {
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 0 auto;
   max-width: 299px;
 }
 .section-1 .swiper-container .swiper-wrapper .swiper-slide .slide-content button {
