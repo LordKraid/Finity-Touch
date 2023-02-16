@@ -82,7 +82,7 @@ new Swiper('.index .section-3_swiper-container', {
     //slidesPerColumn: 2,
     //gridRows: 2,
 
-    /*
+    
     breakpoints: {
         1300: {
             slidesPerView: 4,
@@ -97,7 +97,7 @@ new Swiper('.index .section-3_swiper-container', {
             slidesPerView: 1.1,
         }
     },
-    */
+    
 })
 
 
