@@ -60,9 +60,16 @@ body {
 }
 
 .main {
-  min-height: 900px;
   padding-top: 11%;
-  background: url("../source/img/fund_main_back.gif") 50% 50%/cover no-repeat;
+  margin-bottom: 12%;
+}
+.main .main-gif {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main .main-gif img {
+  width: 100%;
 }
 .main h1 {
   font-family: "Chakra Petch", sans-serif;
@@ -297,39 +304,67 @@ body {
   top: 57%;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
   .main {
-    min-height: 900px;
-    margin: 0 auto;
+    padding-top: 38%;
+    margin-bottom: 10%;
     text-align: center;
-    padding-top: 700px;
+  }
+  .main .main-gif {
+    left: 0;
+    top: -3%;
+  }
+  .main .main-gif img {
+    min-height: 342px;
   }
   .main h1 {
-    font-family: "Chakra Petch", sans-serif;
-    font-weight: 600;
     font-size: 120px;
     line-height: 140px;
-    background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 40%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    margin: 0 auto;
   }
   .main .h1-bottom {
     text-align: right;
     max-width: 465px;
   }
   .main p {
-    font-size: 18px;
-    line-height: 23px;
-    text-align: center;
-    margin: 0 auto 3.3%;
+    font-size: 22px;
+    line-height: 29px;
+    margin: 0 auto 3.2%;
   }
   .main button {
     font-size: 22px;
     line-height: 27px;
-    color: #FFFFFF;
-    padding: 18px 35px;
+    padding: 18px 70px;
+  }
+}
+@media (max-width: 1150px) {
+  .main {
+    padding-top: 38%;
+    text-align: center;
+  }
+  .main .main-gif {
+    left: 0;
+    top: -3%;
+  }
+  .main h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+  .main .h1-top {
+    position: relative;
+    left: -10%;
+  }
+  .main .h1-bottom {
+    text-align: center;
+  }
+  .main p {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .main button {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 18px 70px;
   }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
     font-size: 16px;
@@ -387,6 +422,27 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .main {
+    padding-top: 230px;
+    margin-bottom: 22%;
+  }
+  .main .main-gif {
+    left: 0;
+    top: -3%;
+  }
+  .main h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .main p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .main button {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 15px;
+  }
   .section-2 .section-2_roadmap img {
     width: 100%;
   }

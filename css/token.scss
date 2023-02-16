@@ -73,11 +73,23 @@ body{
 
 
 .main{
-    min-height: 900px;
+    //min-height: 900px;
 
     padding-top: 11%;
+    margin-bottom: 12%;
 
-    background: url('../source/img/token_main_back.gif') 50% 50%/cover no-repeat;
+    //background: url('../source/img/token_main_back.gif') 50% 50%/cover no-repeat;
+
+    .main-gif{
+        position: absolute;
+
+        left: 0;
+        top: 0;
+
+        img{
+            width: 100%;
+        }
+    }
 
     h1{
         font-family: 'Chakra Petch', sans-serif;
@@ -137,6 +149,8 @@ body{
     margin-bottom: 12%;
 
     .swiper-container{
+        overflow: hidden;
+
         .swiper-wrapper{
             .swiper-slide{
                 position: relative;
@@ -451,7 +465,86 @@ footer{
 }
 
 
+@media(max-width: 1450px){
+    .main{
+        padding-top: 38%;
+        margin-bottom: 10%;
+
+        text-align: center;
+    
+        .main-gif{
+            left: 0;
+            top: -3%;
+    
+            img{
+                min-height: 342px;
+            }
+        }
+    
+        h1{
+            font-size: 120px;
+            line-height: 140px;
+
+            margin: 0 auto;
+        }
+    
+        .h1-bottom{
+            text-align: right;
+            max-width: 465px;
+        }
+    
+        p{
+            font-size: 22px;
+            line-height: 29px;
+
+            margin: 0 auto 3.2%;
+        }
+    
+        button{
+            font-size: 22px;
+            line-height: 27px;
+            padding: 18px 70px;
+        }
+    }
+}
+
 @media(max-width: 1150px){
+    .main{
+        padding-top: 38%;
+
+        text-align: center;
+    
+        .main-gif{
+            left: 0;
+            top: -3%;
+        }
+    
+        h1{
+            font-size: 90px;
+            line-height: 100px;
+        }
+
+        .h1-top{
+            position: relative;
+            left: -10%;
+        }
+
+        .h1-bottom{
+            text-align: center;
+        }
+    
+        p{
+            font-size: 22px;
+            line-height: 29px;
+        }
+    
+        button{
+            font-size: 22px;
+            line-height: 27px;
+            padding: 18px 70px;
+        }
+    }
+
     .section-1{
         .swiper-container{
             .swiper-wrapper{
@@ -551,6 +644,32 @@ footer{
 }
 
 @media(max-width: 600px){
+    .main{
+        padding-top: 230px;
+        margin-bottom: 22%;
+
+        .main-gif{
+            left: 0;
+            top: -3%;
+        }
+    
+        h1{
+            font-size: 50px;
+            line-height: 60px;
+        }
+    
+        p{
+            font-size: 16px;
+            line-height: 18px;
+        }
+    
+        button{
+            font-size: 18px;
+            line-height: 21px;
+            padding: 10px 15px;
+        }
+    }
+
     .section-2{
         text-align: center;
         
