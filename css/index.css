@@ -257,11 +257,29 @@ body {
 .section-2 .block-1 .block-flex_info h2 span {
   color: greenyellow;
 }
+.section-2 .block-1 .block-flex_info button {
+  border: greenyellow 2px solid;
+}
+.section-2 .block-1 .block-flex_info button:hover {
+  background-color: rgb(117, 174, 32);
+}
 .section-2 .block-2 .block-flex_info h2 span {
   color: skyblue;
 }
+.section-2 .block-2 .block-flex_info button {
+  border: skyblue 2px solid;
+}
+.section-2 .block-2 .block-flex_info button:hover {
+  background-color: rgb(93, 142, 161);
+}
 .section-2 .block-3 .block-flex_info h2 span {
   color: orange;
+}
+.section-2 .block-3 .block-flex_info button {
+  border: orange 2px solid;
+}
+.section-2 .block-3 .block-flex_info button:hover {
+  background-color: rgb(174, 114, 1);
 }
 
 .section-3 {
@@ -395,6 +413,7 @@ body {
   box-shadow: 2px 2px 20px rgba(239, 57, 255, 0.3);
   border-radius: 10px;
   border: rgba(239, 57, 255, 0.5) 1px solid;
+  filter: drop-shadow(1px 1px 5px rgba(239, 57, 255, 0.3));
   padding: 30px 37px 30px 20px;
   transition: 0.5s;
   cursor: pointer;
@@ -538,6 +557,37 @@ body {
 }
 
 @media (max-width: 1450px) {
+  .main {
+    padding-top: 150px;
+    margin-bottom: 5.8%;
+  }
+  .main .main_flex {
+    flex-direction: column;
+  }
+  .main .main_flex .main_text {
+    order: 2;
+    text-align: center;
+  }
+  .main .main_flex .main_text h1 {
+    font-size: 147px;
+    line-height: 191px;
+  }
+  .main .main_flex .main_text .main_p1 {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .main .main_flex .main_text .main_p2 {
+    font-size: 37px;
+    line-height: 45px;
+  }
+  .main .main_flex .main_text .main_button-flex {
+    justify-content: center;
+  }
+  .main .main_flex .main_img {
+    flex-basis: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
   .section-2 .block-flex .block-flex_info .footer-info .footer-info_deco h5 {
     font-size: 18px;
     line-height: 180%;
@@ -675,6 +725,21 @@ body {
   }
 }
 @media (max-width: 940px) {
+  .main {
+    padding-top: 150px;
+  }
+  .main .main_flex .main_text h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+  .main .main_flex .main_text .main_p1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main .main_flex .main_text .main_p2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
   .section-1 {
     order: 2;
   }
@@ -764,6 +829,26 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .main {
+    padding-top: 100px;
+  }
+  .main .main_flex .main_text h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .main .main_flex .main_text .main_p1 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .main .main_flex .main_text .main_p2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .main .main_flex .main_text .main_button-flex button {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 12px;
+  }
   .section-1 h1 {
     font-size: 40px;
     line-height: 50px;

@@ -185,6 +185,7 @@ body {
   box-shadow: 2px 2px 20px rgba(85, 255, 57, 0.5);
   border-radius: 10px;
   border: rgba(85, 255, 57, 0.5) 1px solid;
+  filter: drop-shadow(1px 1px 1px rgba(85, 255, 57, 0.2));
   padding: 4% 5% 4% 2.8%;
   transition: 0.5s;
   cursor: pointer;
