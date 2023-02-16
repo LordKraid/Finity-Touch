@@ -113,6 +113,9 @@ body {
   top: -50px;
   margin-bottom: 4%;
 }
+.section-1 .swiper-container {
+  overflow: hidden;
+}
 .section-1 .swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
   padding: 1.8% 1.8% 0 1.8%;
