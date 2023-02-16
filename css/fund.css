@@ -487,7 +487,9 @@ body {
     display: none;
   }
   .section-4 .section-4_content .buttons-block button {
-    padding: 15px 30px;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 10px 20px;
   }
   .section-4 .section-4_content .icons-block {
     flex-direction: column;
@@ -502,12 +504,12 @@ body {
   }
   .section-4 .section-4_content .scobka-top {
     position: absolute;
-    top: -50px;
-    right: 15px;
+    top: -30px;
+    right: 5px;
   }
   .section-4 .section-4_content .scobka-bottom {
     position: absolute;
-    left: 15px;
-    top: 30px;
+    left: 5px;
+    top: 10px;
   }
 }/*# sourceMappingURL=fund.css.map */

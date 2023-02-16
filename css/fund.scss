@@ -678,7 +678,6 @@ body{
     }
 
     .section-4{
-    
         .coin-left{
             display: none;
         }
@@ -694,10 +693,10 @@ body{
     
             .buttons-block{
                 button{
-                    //font-size: 33.0512px;
-                    //line-height: 40px;
+                    font-size: 21px;
+                    line-height: 25px;
     
-                    padding: 15px 30px;
+                    padding: 10px 20px;
                 }
             }
     
@@ -719,15 +718,15 @@ body{
             .scobka-top{
                 position: absolute;
     
-                top: -50px;
-                right: 15px;
+                top: -30px;
+                right: 5px;
             }
     
             .scobka-bottom{
                 position: absolute;
     
-                left: 15px;
-                top: 30px;
+                left: 5px;
+                top: 10px;
             }
         }
     }
