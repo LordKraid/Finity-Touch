@@ -62,6 +62,10 @@ header{
                 }
             }
         }
+
+        .burger-menu{
+            display: none;
+        }
     }
 }
 
@@ -91,6 +95,140 @@ header{
                     display: none;
                 }
             }
+
+            .burger-menu{
+                display: flex;
+
+                .menu-btn{
+                    display: flex;
+                }
+            }
         }
     }
 }
+
+
+
+//=======BURGER==========
+
+.burger-menu{
+    z-index: 1000;
+}
+
+.menu-btn{
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+    right: 40px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 120;
+
+    text-align: right;
+
+    transition: 0.2s;
+  }
+   
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 120%;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition-duration: .25s;
+
+    border-radius: 50px;
+
+    //padding: 10px;
+  }
+
+  .menu-btn > span::before {
+    content: '';
+    top: -10px;
+    width: 100%;
+  }
+  .menu-btn > span::after {
+    content: '';
+    top: 10px;
+    width: 100%
+  }
+   
+  .menubox{
+    z-index: 90;
+
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 0;
+    list-style: none;
+    background-color: #1E1E1E;
+    backdrop-filter: blur(92.3058px);;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+  }
+   
+  .menu-item {
+    display: block;
+    padding: 17px 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    transition-duration: .25s;
+  }
+  .menu-item:hover {
+    background-color: rgba($color: #FFFFFF, $alpha: 0.2);
+  }
+   
+   
+  #menu-toggle {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+    opacity: 0;
+  }
+   
+  #menu-toggle:checked ~ .menu-btn > span{
+    width: 100%; 
+    transform: translateX(-15px) rotate(45deg);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::before{
+    top: 0;
+    left: 0;
+    transform: rotate(0);
+    width: 100%;
+  }
+  #menu-toggle:checked ~ .menu-btn > span::after{
+    top: 0;
+    left: 0;
+    transform: rotate(90deg);
+    width: 100%;
+  }
+  #menu-toggle:checked ~ .menubox{
+    visibility: visible;
+    right: 0;
+  }
+
+  #menu-toggle:checked{
+    body{
+        overflow-y: hidden;
+    }
+  }
+
+//=======================
