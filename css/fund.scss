@@ -31,6 +31,12 @@ body{
     position: relative;
 }
 
+img{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
 
 
 .button_type1, .button_type2{
@@ -60,6 +66,10 @@ body{
 
 .button{
     transition: 0.3s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .button:hover{

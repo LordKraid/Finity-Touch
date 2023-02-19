@@ -38,10 +38,10 @@ new Swiper('.index .section-4_slider-block', {
             slidesPerView: 3,
         },
         375: {
-            slidesPerView: 2,
+            slidesPerView: 1.8,
         },
         0: {
-            slidesPerView: 1.4,
+            slidesPerView: 1.2,
         }
     },
 

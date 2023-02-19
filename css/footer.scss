@@ -129,6 +129,12 @@ footer{
     }
 }
 
+img{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
 
 @media(max-width: 1450px){
     footer{

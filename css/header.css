@@ -49,6 +49,12 @@ header .header-flex .burger-menu {
   display: none;
 }
 
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 /*.scrolled{
     padding: 8px 20px 8px 60px;
 }*/

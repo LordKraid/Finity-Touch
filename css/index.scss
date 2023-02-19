@@ -37,6 +37,12 @@ body{
     position: relative;
 }
 
+img{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
 
 
 .button_type1, .button_type2{
@@ -66,6 +72,10 @@ body{
 
 .button{
     transition: 0.3s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .button:hover{
@@ -132,6 +142,10 @@ body{
         .main_img{
             flex-basis: 60%;
 
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+
             .main_img-box{
                 width: 100%;
 
@@ -164,6 +178,10 @@ body{
 
     .swiper-container{
         overflow: hidden;
+        
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
 
         .swiper-wrapper{
             .swiper-slide{
@@ -243,6 +261,10 @@ body{
             flex-basis: 47%;
             width: 100%;
 
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+
             img{
                 width: 100%;
             }
@@ -254,11 +276,19 @@ body{
             .scobca-right{
                 text-align: right;
                 margin-bottom: -50px;
+
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
             }
 
             .scobca-left{
                 margin-top: -10px;
                 margin-left: -50px;
+
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
             }
 
             h2{
@@ -288,6 +318,10 @@ body{
                     align-items: flex-end;
                     width: 100%;
                     flex-basis: 55%;
+
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
 
                     .line-block{
                         height: 23px;
@@ -410,6 +444,10 @@ body{
         margin-bottom: 5.5%;
         overflow: hidden;
 
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
         .swiper-wrapper{
             .swiper-slide{
                 max-width: 280px;
@@ -518,6 +556,10 @@ body{
         overflow: hidden;
         background-color: #000000;
 
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
         .swiper-wrapper{
             align-items: center;
             text-align: center;
@@ -555,6 +597,10 @@ body{
             }
 
             .title-img{
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+
                 img{
                     width: 100%;
                 }
@@ -637,6 +683,10 @@ body{
         max-width: 1235px;
         margin: 0 auto;
 
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
         img{
             width: 100%;
         }
@@ -696,6 +746,10 @@ body{
                     color: #FFFFFF;
 
                     width: 100%;
+                    
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
                 }
 
                 input::placeholder{

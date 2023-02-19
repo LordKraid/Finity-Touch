@@ -29,6 +29,12 @@ body {
   position: relative;
 }
 
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 .button_type1, .button_type2 {
   padding: 18px 35px;
   border-radius: 50px;
@@ -54,6 +60,9 @@ body {
 
 .button {
   transition: 0.3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .button:hover {
@@ -104,6 +113,9 @@ body {
 }
 .main .main_flex .main_img {
   flex-basis: 60%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .main .main_flex .main_img .main_img-box {
   width: 100%;
@@ -128,6 +140,9 @@ body {
 }
 .section-1 .swiper-container {
   overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-1 .swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
@@ -181,6 +196,9 @@ body {
 .section-2 .block-flex .block-flex_img {
   flex-basis: 47%;
   width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-2 .block-flex .block-flex_img img {
   width: 100%;
@@ -191,10 +209,16 @@ body {
 .section-2 .block-flex .block-flex_info .scobca-right {
   text-align: right;
   margin-bottom: -50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-2 .block-flex .block-flex_info .scobca-left {
   margin-top: -10px;
   margin-left: -50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-2 .block-flex .block-flex_info h2 {
   font-family: "Chakra Petch", sans-serif;
@@ -219,6 +243,9 @@ body {
   align-items: flex-end;
   width: 100%;
   flex-basis: 55%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-2 .block-flex .block-flex_info .footer-info .footer-info_deco .line-block {
   height: 23px;
@@ -296,6 +323,9 @@ body {
 .section-3 .section-3_swiper-container {
   margin-bottom: 5.5%;
   overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide {
   max-width: 280px;
@@ -371,6 +401,9 @@ body {
   margin: 0 auto;
   overflow: hidden;
   background-color: #000000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-4 .swiper-container .swiper-wrapper {
   align-items: center;
@@ -401,6 +434,11 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+.section-5 .content-flex .title .title-img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-5 .content-flex .title .title-img img {
   width: 100%;
@@ -460,6 +498,9 @@ body {
 .section-6 .img-box {
   max-width: 1235px;
   margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-6 .img-box img {
   width: 100%;
@@ -528,6 +569,9 @@ body {
   line-height: 34px;
   color: #FFFFFF;
   width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-7 .contact-box .forms form input::-moz-placeholder {
   font-weight: 500;

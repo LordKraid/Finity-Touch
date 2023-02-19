@@ -94,6 +94,12 @@ footer .footer-bottom .footer-text {
   width: 100%;
 }
 
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 @media (max-width: 1450px) {
   footer {
     border-top: 1px solid #FFFFFF;
