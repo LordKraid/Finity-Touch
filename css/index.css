@@ -188,7 +188,11 @@ img {
   bottom: 7%;
 }
 
+.section-2 {
+  position: relative;
+}
 .section-2 .block-flex {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10%;
@@ -205,6 +209,7 @@ img {
 }
 .section-2 .block-flex .block-flex_info {
   flex-basis: 50%;
+  position: static;
 }
 .section-2 .block-flex .block-flex_info .scobca-right {
   text-align: right;
@@ -290,6 +295,12 @@ img {
 .section-2 .block-1 .block-flex_info button:hover {
   background-color: rgb(117, 174, 32);
 }
+.section-2 .block-1 .block-flex_info .deco {
+  position: absolute;
+  right: -300px;
+  top: -200px;
+  z-index: -1;
+}
 .section-2 .block-2 .block-flex_info h2 span {
   color: skyblue;
 }
@@ -298,6 +309,12 @@ img {
 }
 .section-2 .block-2 .block-flex_info button:hover {
   background-color: rgb(93, 142, 161);
+}
+.section-2 .block-2 .block-flex_info .deco {
+  position: absolute;
+  left: -300px;
+  top: -200px;
+  z-index: -1;
 }
 .section-2 .block-3 .block-flex_info h2 span {
   color: orange;
@@ -308,9 +325,32 @@ img {
 .section-2 .block-3 .block-flex_info button:hover {
   background-color: rgb(174, 114, 1);
 }
+.section-2 .block-3 .block-flex_info .deco {
+  position: absolute;
+  right: -300px;
+  top: -200px;
+  z-index: -1;
+}
 
 .section-3 {
   margin-bottom: 3%;
+  position: relative;
+}
+.section-3 .deco {
+  position: absolute;
+  z-index: -1;
+  width: 40%;
+}
+.section-3 .deco img {
+  width: 100%;
+}
+.section-3 .deco-left {
+  top: -300px;
+  left: 0;
+}
+.section-3 .deco-right {
+  top: -150px;
+  right: 0;
 }
 .section-3 h1 {
   font-family: "Chakra Petch", sans-serif;
@@ -521,6 +561,24 @@ img {
   right: 152px;
   top: 250px;
 }
+.section-7 .deco {
+  position: absolute;
+  z-index: -1;
+  width: 30%;
+}
+.section-7 .deco img {
+  width: 100%;
+}
+.section-7 .deco-left {
+  left: 100px;
+  top: -150px;
+  width: 40%;
+}
+.section-7 .deco-right {
+  right: 140px;
+  top: 130px;
+  width: 25%;
+}
 .section-7 .contact-box {
   max-width: 611px;
   margin: 0 auto;
@@ -644,6 +702,18 @@ img {
   }
   .section-2 .block-flex .block-flex_info button img {
     margin-left: 18px;
+  }
+  .section-2 .block-1 .block-flex_info .deco {
+    right: -100px;
+    top: -200px;
+  }
+  .section-2 .block-2 .block-flex_info .deco {
+    left: -100px;
+    top: -200px;
+  }
+  .section-2 .block-3 .block-flex_info .deco {
+    right: -100px;
+    top: -200px;
   }
 }
 @media (max-width: 1150px) {
@@ -789,6 +859,9 @@ img {
     padding: 17px 73px;
     font-size: 24px;
     line-height: 30px;
+  }
+  .deco {
+    display: none;
   }
 }
 @media (max-width: 940px) {

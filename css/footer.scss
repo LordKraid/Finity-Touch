@@ -1,4 +1,6 @@
 footer{
+    position: relative;
+
     padding-top: 2.3%;
     border-bottom: 1px solid #FFFFFF;
 
@@ -20,11 +22,21 @@ footer{
     }
 
     .footer-img{
+        position: relative;
+
         flex-basis: 15%;
         text-align: right;
 
         img{
             //width: 100%;
+        }
+
+        .deco{
+            position: absolute;
+            z-index: -1;
+
+            top: -60px;
+            left: 0px;
         }
     }
 

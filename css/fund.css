@@ -74,10 +74,21 @@ img {
 }
 .main .main-gif {
   position: absolute;
+  z-index: -2;
   left: 0;
   top: 0;
 }
 .main .main-gif img {
+  width: 100%;
+}
+.main .deco {
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+  right: 0;
+  width: 50%;
+}
+.main .deco img {
   width: 100%;
 }
 .main h1 {
@@ -162,6 +173,17 @@ img {
 
 .section-2 {
   margin-bottom: 10.5%;
+  position: relative;
+}
+.section-2 .deco {
+  position: absolute;
+  z-index: -1;
+  top: -200px;
+  left: 0;
+  width: 35%;
+}
+.section-2 .deco img {
+  width: 100%;
 }
 .section-2 .section-2_roadmap img {
   width: 100%;
@@ -173,6 +195,17 @@ img {
 
 .section-3 {
   margin-bottom: 20%;
+  position: relative;
+}
+.section-3 .deco {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 35%;
+}
+.section-3 .deco img {
+  width: 100%;
 }
 .section-3 .content-flex {
   display: flex;
@@ -251,6 +284,21 @@ img {
   right: 0;
   top: -100px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.section-4 .deco {
+  position: absolute;
+  z-index: -1;
+}
+.section-4 .deco img {
+  width: 100%;
+}
+.section-4 .deco-left {
+  top: -250px;
+  left: 0;
+}
+.section-4 .deco-right {
+  top: -300px;
+  right: 0;
 }
 .section-4 .section-4_content {
   max-width: 820px;
@@ -431,6 +479,9 @@ img {
     position: absolute;
     left: 10px;
     top: 50%;
+  }
+  .deco {
+    display: none;
   }
 }
 @media (max-width: 600px) {

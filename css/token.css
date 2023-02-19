@@ -74,10 +74,21 @@ img {
 }
 .main .main-gif {
   position: absolute;
+  z-index: -2;
   left: 0;
   top: 0;
 }
 .main .main-gif img {
+  width: 100%;
+}
+.main .deco {
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+  right: 0;
+  width: 50%;
+}
+.main .deco img {
   width: 100%;
 }
 .main h1 {
@@ -162,8 +173,19 @@ img {
 }
 
 .section-2 {
+  position: relative;
   text-align: center;
   margin-bottom: 12.5%;
+}
+.section-2 .deco {
+  position: absolute;
+  z-index: -1;
+  top: -650px;
+  left: 0;
+  width: 50%;
+}
+.section-2 .deco img {
+  width: 100%;
 }
 .section-2 h1 {
   font-weight: 600;
@@ -191,7 +213,28 @@ img {
 
 .section-3 {
   margin-bottom: 18%;
+  position: relative;
   text-align: center;
+}
+.section-3 .deco {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+}
+.section-3 .deco img {
+  width: 100%;
+}
+.section-3 .deco-1 {
+  top: -600px;
+  right: 0;
+}
+.section-3 .deco-2 {
+  top: 300px;
+  left: 0;
+}
+.section-3 .deco-3 {
+  bottom: -350px;
+  right: 0;
 }
 .section-3 h1 {
   font-family: "Chakra Petch", sans-serif;
@@ -229,6 +272,24 @@ img {
 .section-4 .coin-right {
   right: 152px;
   top: 250px;
+}
+.section-4 .deco {
+  position: absolute;
+  z-index: -1;
+  width: 30%;
+}
+.section-4 .deco img {
+  width: 100%;
+}
+.section-4 .deco-left {
+  left: 100px;
+  top: -150px;
+  width: 40%;
+}
+.section-4 .deco-right {
+  right: 140px;
+  top: 130px;
+  width: 25%;
 }
 .section-4 .contact-box {
   max-width: 611px;
@@ -278,6 +339,9 @@ img {
   line-height: 34px;
   color: #FFFFFF;
   width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .section-4 .contact-box .forms form input::-moz-placeholder {
   font-weight: 500;
@@ -488,6 +552,9 @@ footer {
     padding: 17px 73px;
     font-size: 24px;
     line-height: 30px;
+  }
+  .deco {
+    display: none;
   }
 }
 @media (max-width: 940px) {
