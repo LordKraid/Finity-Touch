@@ -12,10 +12,15 @@ body{
     font-weight: 500;
     color: #FFFFFF;
 
-    overflow: hidden;
-
-    max-width: 100%;
+    overflow-x: hidden;
+    width: 100vw;
     height: 100vh;
+}
+
+.wrapper{
+    position: relative;
+
+    overflow: hidden;
 }
 
 img{
@@ -23,6 +28,12 @@ img{
     -moz-user-select: none;
     -ms-user-select: none;
 }
+
+.unscroll{
+    overflow: hidden;
+}
+
+
 
 .button_type1, .button_type2{
     padding: 18px 35px;

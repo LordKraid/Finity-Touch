@@ -36,6 +36,10 @@ img {
   -ms-user-select: none;
 }
 
+.unscroll {
+  overflow: hidden;
+}
+
 .button_type1, .button_type2 {
   padding: 18px 35px;
   border-radius: 50px;
