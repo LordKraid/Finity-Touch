@@ -35,10 +35,10 @@ new Swiper('.index .section-4_slider-block', {
             slidesPerView: 4,
         },
         720: {
-            slidesPerView: 3,
+            slidesPerView: 2.5,
         },
         375: {
-            slidesPerView: 1.8,
+            slidesPerView: 1.5,
         },
         0: {
             slidesPerView: 1.2,
