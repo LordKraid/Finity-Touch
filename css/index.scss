@@ -1407,6 +1407,12 @@ img{
     
         .swiper-container{
             display: block;
+
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 520px;
+                }
+            }
         }
 
         .nav{
@@ -1462,6 +1468,48 @@ img{
 
     footer{
         order: 8;
+    }
+}
+
+@media(max-width: 900px){
+    .section-3{
+        .swiper-container{
+            display: block;
+        
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 470px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 800px){
+    .section-3{
+        .swiper-container{
+            display: block;
+        
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 420px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .section-3{
+        .swiper-container{
+            display: block;
+        
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 370px;
+                }
+            }
+        }
     }
 }
 
@@ -1636,7 +1684,7 @@ img{
                 .swiper-slide{
                     position: relative;
 
-                    height: 200px;
+                    height: 300px;
 
                     img{
                         width: 100%;
@@ -1657,7 +1705,7 @@ img{
 
                         position: absolute;
                         bottom: -5px;
-                        left: 13px;
+                        left: 16%;
 
                         img{
                             width: 100%;
@@ -1735,7 +1783,6 @@ img{
         }
     }
 
-
     .section-6{
         h1{
             font-size: 21px;
@@ -1763,6 +1810,34 @@ img{
     
                 font-size: 19px;
                 line-height: 23px;                
+            }
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .section-3{
+        .swiper-container{
+            display: block;
+        
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 400px){
+    .section-3{
+        .swiper-container{
+            display: block;
+        
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 200px;
+                }
             }
         }
     }
