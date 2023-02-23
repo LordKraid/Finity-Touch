@@ -81,6 +81,32 @@ img {
     display: flex;
   }
 }
+@media (max-width: 900px) {
+  header {
+    padding: 25px 30px;
+  }
+  header .logo-flex img {
+    margin-right: 15px;
+    width: 70px;
+  }
+  header .logo-flex h3 {
+    font-size: 21px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    padding: 15px 30px;
+  }
+  header .logo-flex img {
+    margin-right: 15px;
+    width: 50px;
+  }
+  header .logo-flex h3 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
 .burger-menu {
   z-index: 1000;
 }
