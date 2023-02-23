@@ -272,6 +272,7 @@ img {
 .section-3 .content-flex .questions .hide p {
   opacity: 0;
   font-size: 0;
+  position: absolute;
   margin-top: 0;
 }
 .section-3 .content-flex .questions .question-block:not(:last-child) {
