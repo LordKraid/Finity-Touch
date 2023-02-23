@@ -365,6 +365,9 @@ img {
   text-align: center;
   margin-bottom: 3.7%;
 }
+.section-3 .nav {
+  display: none;
+}
 .section-3 .section-3_swiper-container {
   margin-bottom: 5.5%;
   overflow: hidden;
@@ -450,6 +453,13 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
 }
+.section-4 .swiper-container .swiper-wrapper {
+  align-items: center;
+}
+.section-4 .swiper-container .swiper-slide img {
+  width: 100%;
+}
+
 .section-5 {
   margin-bottom: 10.5%;
 }
@@ -984,26 +994,32 @@ img {
   .main .main_flex .main_text .main_button-flex button {
     font-size: 18px;
     line-height: 21px;
-    padding: 10px 12px;
+    padding: 12px 17px;
   }
   .section-1 h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 30px;
   }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide {
     padding: 22px 15px 23px 15px;
+    height: auto;
+  }
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide .slide-content img {
+    width: 25%;
   }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide .slide-content h3 {
-    font-size: 21px;
-    line-height: 28px;
-  }
-  .section-1 .swiper-container .swiper-wrapper .swiper-slide .slide-content p {
     font-size: 16px;
     line-height: 20px;
   }
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide .slide-content p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide .slide-content button {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 15px;
+    line-height: 18px;
   }
   .section-2 .block-flex {
     justify-content: space-between;
@@ -1035,6 +1051,7 @@ img {
   .section-2 .block-flex .block-flex_info p {
     font-size: 16px;
     line-height: 21px;
+    text-align: center;
   }
   .section-2 .block-flex .block-flex_info .footer-info {
     align-items: flex-end;
@@ -1066,39 +1083,92 @@ img {
     margin-bottom: 60px;
   }
   .section-3 h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    margin-bottom: 23px;
+  }
+  .section-3 .nav {
+    display: inline-block;
+    position: absolute;
+  }
+  .section-3 .nav img {
+    width: 100%;
+  }
+  .section-3 .nav-left {
+    left: 19px;
+    top: 49%;
+  }
+  .section-3 .nav-right {
+    right: 19px;
+    top: 49%;
+  }
+  .section-3 .section-3_swiper-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide {
+    position: relative;
+    height: 200px;
   }
   .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide img {
     width: 100%;
   }
   .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide h3 {
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 15px;
   }
   .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide h5 {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 9px;
+    line-height: 11px;
+  }
+  .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide .icons-flex {
+    width: 70%;
+    position: absolute;
+    bottom: -5px;
+    left: 13px;
+  }
+  .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide .icons-flex img {
+    width: 100%;
   }
   .section-3 button {
+    display: none;
     padding: 10px 20px;
     font-size: 18px;
     line-height: 21px;
   }
+  .section-5 {
+    margin-bottom: 70px;
+  }
   .section-5 .content-flex {
     flex-direction: column;
+  }
+  .section-5 .content-flex .title {
+    margin-bottom: 25px;
+    overflow: hidden;
   }
   .section-5 .content-flex .title h1 {
     font-size: 30px;
     line-height: 39px;
     letter-spacing: 0.02em;
   }
+  .section-5 .content-flex .title .title-img {
+    width: 170%;
+    position: relative;
+    right: 110px;
+  }
+  .section-5 .content-flex .questions .question-block {
+    padding-right: 15px;
+  }
   .section-5 .content-flex .questions .question-block .title-flex h3 {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .section-5 .content-flex .questions .question-block .title-flex img {
+    width: 7%;
   }
   .section-5 .content-flex .questions .question-block p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 15px;
   }
   .section-5 .content-flex .questions .hide p {
     opacity: 0;
@@ -1106,13 +1176,22 @@ img {
     margin-top: 0;
   }
   .section-6 h1 {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 21px;
+    line-height: 27px;
   }
   .section-6 .img-box {
     text-align: center;
   }
   .section-6 .img-box img {
-    width: 80%;
+    width: 100%;
+  }
+  .section-7 .contact-box h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .section-7 .contact-box button {
+    padding: 15px 50px;
+    font-size: 19px;
+    line-height: 23px;
   }
 }/*# sourceMappingURL=index.css.map */

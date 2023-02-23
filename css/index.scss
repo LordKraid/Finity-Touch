@@ -497,6 +497,10 @@ img{
         margin-bottom: 3.7%;
     }
 
+    .nav{
+        display: none;
+    }
+
     .section-3_swiper-container{
         margin-bottom: 5.5%;
         overflow: hidden;
@@ -618,12 +622,16 @@ img{
         -ms-user-select: none;
 
         .swiper-wrapper{
-            //align-items: center;
+            align-items: center;
             //text-align: center;
         }
 
         .swiper-slide{
             //text-align: center;
+
+            img{
+                width: 100%;
+            }
         }
     }
 }
@@ -1366,7 +1374,7 @@ img{
                         font-size: 18px;
                         line-height: 21px;
 
-                        padding: 10px 12px;
+                        padding: 12px 17px;
                     }
                 }
             }
@@ -1375,29 +1383,38 @@ img{
 
     .section-1{
         h1{
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 24px;
+            line-height: 31px;
+
+            margin-bottom: 30px;
         }
     
         .swiper-container{
             .swiper-wrapper{
                 .swiper-slide{
                     padding: 22px 15px 23px 15px;
-    
+                    height: auto;
+
                     .slide-content{
-                        h3{
-                            font-size: 21px;
-                            line-height: 28px;
+                        img{
+                            width: 25%;
                         }
-        
-                        p{
+
+                        h3{
                             font-size: 16px;
                             line-height: 20px;
                         }
         
+                        p{
+                            font-size: 12px;
+                            line-height: 15px;
+
+                            margin-bottom: 15px;
+                        }
+        
                         button{
-                            font-size: 18px;
-                            line-height: 21px;
+                            font-size: 15px;
+                            line-height: 18px;
                         }
                     }
                 }
@@ -1441,6 +1458,7 @@ img{
                 p{
                     font-size: 16px;
                     line-height: 21px;
+                    text-align: center;
                 }
     
                 .footer-info{
@@ -1485,31 +1503,74 @@ img{
         margin-bottom: 60px;
     
         h1{
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 30px;
+            line-height: 39px;
+
+            margin-bottom: 23px;
+        }
+
+        .nav{
+            display: inline-block;
+            position: absolute;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .nav-left{
+            left: 19px;
+            top: 49%;
+        }
+
+        .nav-right{
+            right: 19px;
+            top: 49%;
         }
     
         .section-3_swiper-container{
+            max-width: 80%;
+
+            margin: 0 auto;
+
             .swiper-wrapper{
                 .swiper-slide{
+                    position: relative;
+
+                    height: 200px;
+
                     img{
                         width: 100%;
                     }
     
                     h3{
-                        font-size: 21px;
-                        line-height: 25px;
+                        font-size: 12px;
+                        line-height: 15px;
                     }
     
                     h5{
-                        font-size: 14px;
-                        line-height: 17px;
+                        font-size: 9px;
+                        line-height: 11px;
+                    }
+
+                    .icons-flex{
+                        width: 70%;
+
+                        position: absolute;
+                        bottom: -5px;
+                        left: 13px;
+
+                        img{
+                            width: 100%;
+                        }
                     }
                 }
             }
         }
     
         button{
+            display: none;
+
             padding: 10px 20px;
     
             font-size: 18px;
@@ -1518,28 +1579,48 @@ img{
     }
 
     .section-5{    
+        margin-bottom: 70px;
+
         .content-flex{
             flex-direction: column;
     
             .title{
+                margin-bottom: 25px;
+                
+                overflow: hidden;
+
                 h1{
                     font-size: 30px;
                     line-height: 39px;
                     letter-spacing: 0.02em;
                 }
+
+                .title-img{
+                    width: 170%;
+
+                    position: relative;
+                    right: 110px;
+                }
             }
 
             .questions{
                 .question-block{
+                    padding-right: 15px;
+
                     .title-flex{
                         h3{
-                            font-size: 18px;
-                            line-height: 21px;
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+
+                        img{
+                            width: 7%;
                         }
                     }
     
                     p{
-                        font-size: 14px;
+                        font-size: 12px;
+                        line-height: 15px;
                     }
                 }
 
@@ -1557,15 +1638,31 @@ img{
 
     .section-6{
         h1{
-            font-size: 30px;
-            line-height: 50px;
+            font-size: 21px;
+            line-height: 27px;
         }
     
         .img-box{
             text-align: center;
 
             img{
-                width: 80%;
+                width: 100%;
+            }
+        }
+    }
+
+    .section-7{    
+        .contact-box{
+            h2{
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            button{
+                padding: 15px 50px;
+    
+                font-size: 19px;
+                line-height: 23px;                
             }
         }
     }

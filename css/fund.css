@@ -256,6 +256,9 @@ img {
   font-size: 28px;
   line-height: 34px;
 }
+.section-3 .content-flex .questions .question-block .title-flex img {
+  margin-left: 10px;
+}
 .section-3 .content-flex .questions .question-block p {
   font-weight: 400;
   font-size: 19px;
@@ -413,17 +416,16 @@ img {
   .main h1 {
     font-size: 90px;
     line-height: 100px;
-  }
-  .main .h1-top {
     position: relative;
-    left: -10%;
   }
   .main .h1-bottom {
-    text-align: center;
+    right: 50px;
   }
   .main p {
-    font-size: 22px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
   .main button {
     font-size: 22px;
@@ -502,13 +504,22 @@ img {
     line-height: 60px;
   }
   .main p {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 23px;
   }
   .main button {
     font-size: 18px;
     line-height: 21px;
-    padding: 10px 15px;
+    padding: 10px 25px;
+  }
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
+    font-size: 12px;
+    line-height: 15px;
   }
   .section-2 .section-2_roadmap img {
     width: 100%;
@@ -524,17 +535,32 @@ img {
   .section-3 .content-flex {
     flex-direction: column;
   }
+  .section-3 .content-flex .title {
+    margin-bottom: 25px;
+  }
   .section-3 .content-flex .title h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 39px;
     letter-spacing: 0.02em;
   }
+  .section-3 .content-flex .title .title-img {
+    width: 170%;
+    position: relative;
+    right: 110px;
+  }
+  .section-3 .content-flex .questions .question-block {
+    padding-right: 15px;
+  }
   .section-3 .content-flex .questions .question-block .title-flex h3 {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .section-3 .content-flex .questions .question-block .title-flex img {
+    width: 7%;
   }
   .section-3 .content-flex .questions .question-block p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 15px;
   }
   .section-3 .content-flex .questions .hide p {
     opacity: 0;

@@ -213,6 +213,10 @@ img {
     text-align: center;
     margin-bottom: 24px;
   }
+  footer .footer-top .footer-logo-adapt img {
+    width: 60%;
+    margin-right: 10px;
+  }
   footer .footer-top .menu-flex {
     margin-bottom: 24px;
   }
@@ -228,7 +232,7 @@ img {
     line-height: 25px;
   }
   footer .footer-top .menu-flex menu a:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   footer .footer-top .button-flex .button_type1 {
     margin-right: 20px;

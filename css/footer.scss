@@ -311,6 +311,13 @@ img{
 
             margin-bottom: 24px;
     
+            .footer-logo-adapt{    
+                img{
+                    width: 60%;
+                    margin-right: 10px;
+                }
+            }
+
             .menu-flex{
                 margin-bottom: 24px;
 
@@ -328,7 +335,7 @@ img{
                     }
 
                     a:not(:last-child){
-                        margin-bottom: 10px;
+                        margin-bottom: 0px;
                     }
                 }
             }

@@ -37,11 +37,10 @@ new Swiper('.index .section-4_slider-block', {
         720: {
             slidesPerView: 2.5,
         },
-        375: {
-            slidesPerView: 1.5,
-        },
         0: {
-            slidesPerView: 1.2,
+            slidesPerView: 2,
+
+            spaceBetween: 40,
         }
     },
 
@@ -94,9 +93,15 @@ new Swiper('.index .section-3_swiper-container', {
             slidesPerView: 2,
         },
         0: {
-            slidesPerView: 1.1,
+            slidesPerView: 2,
+            spaceBetween: 20,
         }
     },
+
+    navigation: {
+        nextEl: '.nav-right',
+        prevEl: '.nav-left'
+    }
     
 })
 
@@ -113,7 +118,8 @@ new Swiper('.fund .section-1_swiper-container', {
             slidesPerView: 2,
         },
         0: {
-            slidesPerView: 1.2,
+            slidesPerView: 1.15,
+            spaceBetween: 30
         }
     },
 })
