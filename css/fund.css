@@ -589,6 +589,9 @@ img {
     width: 100%;
     justify-content: space-around;
   }
+  .section-4 .section-4_content .icons-block .icons-flex img {
+    width: 80%;
+  }
   .section-4 .section-4_content .icons-block .icons-flex:not(:last-child) {
     margin-bottom: 8%;
   }

@@ -838,6 +838,10 @@ img{
                 .icons-flex{
                     width: 100%;
                     justify-content: space-around;
+
+                    img{
+                        width: 80%;
+                    }
                 }
 
                 .icons-flex:not(:last-child){
