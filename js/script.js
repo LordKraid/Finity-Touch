@@ -86,11 +86,8 @@ new Swiper('.index .section-3_swiper-container', {
         1300: {
             slidesPerView: 4,
         },
-        970: {
+        900: {
             slidesPerView: 3,
-        },
-        650: {
-            slidesPerView: 2,
         },
         0: {
             slidesPerView: 2,

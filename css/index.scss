@@ -501,7 +501,80 @@ img{
         display: none;
     }
 
-    .section-3_swiper-container{
+    .section-3_team{
+        .team-row{
+            display: flex;
+            justify-content: space-between;
+
+            margin-bottom: 40px;
+
+            .team-card{
+                overflow: hidden;
+                text-align: center;
+
+                margin: 0 10px;
+
+                background: #0D0D0D;
+                
+                border: #C275FF solid 1px;
+                box-shadow: 2px 2px 9px #91009D;
+                border-radius: 10px;
+
+                img{
+                    width: 100%;
+                    margin-bottom: 4%;
+                }
+
+                h3{
+                    font-weight: 600;
+                    font-size: 23px;
+                    line-height: 28px;
+
+                    margin-bottom: 5%;
+                }
+
+                h5{
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    text-align: center;
+                    
+                    color: #959595;
+
+                    margin-bottom: 12.8%;
+                }
+
+                .icons-flex{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    max-width: 138px;
+                    margin: 0 auto;
+                    
+                    padding-bottom: 7.8%;
+
+                    img{
+                        padding: 5px;
+                        transition: 0.2s;
+                    }
+
+                    img:hover{
+                        transform: scale(1.2);
+                    }
+
+                    img:active{
+                        transform: scale(0.9);
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper-container{
+        display: none;
+
         margin-bottom: 5.5%;
         overflow: hidden;
 
@@ -1327,6 +1400,48 @@ img{
 
     .section-3{
         order: 4;
+
+        .section-3_team{
+            display: none;
+        }
+    
+        .swiper-container{
+            display: block;
+        }
+
+        .nav{
+            display: block;
+            position: absolute;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .nav-left{
+            left: 19px;
+            top: 49%;
+        }
+
+        .nav-right{
+            right: 19px;
+            top: 49%;
+        }
+
+        .section-3_swiper-container{
+            max-width: 80%;
+            margin: 0 auto;
+
+            .swiper-wrapper{
+                .swiper-slide{
+                    height: 330px;
+                }
+            }
+        }
+
+        .button{
+            display: none;
+        }
     }
 
     .section-4{
@@ -1512,29 +1627,9 @@ img{
 
             margin-bottom: 23px;
         }
-
-        .nav{
-            display: inline-block;
-            position: absolute;
-
-            img{
-                width: 100%;
-            }
-        }
-
-        .nav-left{
-            left: 19px;
-            top: 49%;
-        }
-
-        .nav-right{
-            right: 19px;
-            top: 49%;
-        }
     
         .section-3_swiper-container{
             max-width: 80%;
-
             margin: 0 auto;
 
             .swiper-wrapper{

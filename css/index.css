@@ -368,32 +368,31 @@ img {
 .section-3 .nav {
   display: none;
 }
-.section-3 .section-3_swiper-container {
-  margin-bottom: 5.5%;
-  overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+.section-3 .section-3_team .team-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide {
+.section-3 .section-3_team .team-row .team-card {
   overflow: hidden;
   text-align: center;
+  margin: 0 10px;
   background: #0D0D0D;
   border: #C275FF solid 1px;
   box-shadow: 2px 2px 9px #91009D;
   border-radius: 10px;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide img {
+.section-3 .section-3_team .team-row .team-card img {
   width: 100%;
   margin-bottom: 4%;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide h3 {
+.section-3 .section-3_team .team-row .team-card h3 {
   font-weight: 600;
   font-size: 23px;
   line-height: 28px;
   margin-bottom: 5%;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide h5 {
+.section-3 .section-3_team .team-row .team-card h5 {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -401,7 +400,7 @@ img {
   color: #959595;
   margin-bottom: 12.8%;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide .icons-flex {
+.section-3 .section-3_team .team-row .team-card .icons-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -409,14 +408,66 @@ img {
   margin: 0 auto;
   padding-bottom: 7.8%;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide .icons-flex img {
+.section-3 .section-3_team .team-row .team-card .icons-flex img {
   padding: 5px;
   transition: 0.2s;
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide .icons-flex img:hover {
+.section-3 .section-3_team .team-row .team-card .icons-flex img:hover {
   transform: scale(1.2);
 }
-.section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide .icons-flex img:active {
+.section-3 .section-3_team .team-row .team-card .icons-flex img:active {
+  transform: scale(0.9);
+}
+.section-3 .swiper-container {
+  display: none;
+  margin-bottom: 5.5%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide {
+  overflow: hidden;
+  text-align: center;
+  background: #0D0D0D;
+  border: #C275FF solid 1px;
+  box-shadow: 2px 2px 9px #91009D;
+  border-radius: 10px;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  margin-bottom: 4%;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide h3 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  margin-bottom: 5%;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #959595;
+  margin-bottom: 12.8%;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide .icons-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 138px;
+  margin: 0 auto;
+  padding-bottom: 7.8%;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide .icons-flex img {
+  padding: 5px;
+  transition: 0.2s;
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide .icons-flex img:hover {
+  transform: scale(1.2);
+}
+.section-3 .swiper-container .swiper-wrapper .swiper-slide .icons-flex img:active {
   transform: scale(0.9);
 }
 .section-3 button {
@@ -968,6 +1019,37 @@ img {
   .section-3 {
     order: 4;
   }
+  .section-3 .section-3_team {
+    display: none;
+  }
+  .section-3 .swiper-container {
+    display: block;
+  }
+  .section-3 .nav {
+    display: block;
+    position: absolute;
+  }
+  .section-3 .nav img {
+    width: 100%;
+  }
+  .section-3 .nav-left {
+    left: 19px;
+    top: 49%;
+  }
+  .section-3 .nav-right {
+    right: 19px;
+    top: 49%;
+  }
+  .section-3 .section-3_swiper-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide {
+    height: 330px;
+  }
+  .section-3 .button {
+    display: none;
+  }
   .section-4 {
     order: 1;
   }
@@ -1095,21 +1177,6 @@ img {
     font-size: 30px;
     line-height: 39px;
     margin-bottom: 23px;
-  }
-  .section-3 .nav {
-    display: inline-block;
-    position: absolute;
-  }
-  .section-3 .nav img {
-    width: 100%;
-  }
-  .section-3 .nav-left {
-    left: 19px;
-    top: 49%;
-  }
-  .section-3 .nav-right {
-    right: 19px;
-    top: 49%;
   }
   .section-3 .section-3_swiper-container {
     max-width: 80%;
