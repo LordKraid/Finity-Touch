@@ -491,6 +491,13 @@ img {
     display: none;
   }
 }
+@media (max-width: 700px) {
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
 @media (max-width: 600px) {
   .main {
     padding-top: 230px;

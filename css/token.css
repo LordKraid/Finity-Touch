@@ -508,8 +508,8 @@ footer {
     padding: 18px 70px;
   }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 17px;
   }
   .section-2 {
     text-align: center;
@@ -573,6 +573,13 @@ footer {
 @media (max-width: 940px) {
   .section-5 {
     display: none;
+  }
+}
+@media (max-width: 700px) {
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 @media (max-width: 600px) {
