@@ -87,7 +87,7 @@ img {
   }
   header .logo-flex img {
     margin-right: 15px;
-    width: 70px;
+    width: 50px;
   }
   header .logo-flex h3 {
     font-size: 21px;
@@ -96,15 +96,32 @@ img {
 }
 @media (max-width: 600px) {
   header {
-    padding: 15px 30px;
+    padding: 20px 20px;
   }
   header .logo-flex img {
     margin-right: 15px;
-    width: 50px;
+    width: 30px;
   }
   header .logo-flex h3 {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  header .menu-btn {
+    top: 30%;
+    right: 40px;
+  }
+  header .menu-btn > span {
+    width: 100%;
+  }
+  header .menu-btn > span::before {
+    content: "";
+    top: -8px;
+    width: 100%;
+  }
+  header .menu-btn > span::after {
+    content: "";
+    top: 8px;
+    width: 100%;
   }
 }
 .burger-menu {

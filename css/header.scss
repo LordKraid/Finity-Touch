@@ -120,7 +120,7 @@ img{
         .logo-flex{
             img{
                 margin-right: 15px;
-                width: 70px;
+                width: 50px;
             }
     
             h3{
@@ -133,19 +133,40 @@ img{
 
 @media (max-width: 600px){
     header{
-        padding: 15px 30px;
+        padding: 20px 20px;
 
         .logo-flex{
             img{
                 margin-right: 15px;
-                width: 50px;
+                width: 30px;
             }
     
             h3{
-                font-size: 18px;
-                line-height: 21px;
+                font-size: 16px;
+                line-height: 18px;
             }
         } 
+
+        .menu-btn{
+            top: 30%;
+            right: 40px;
+        }
+
+        .menu-btn > span{
+            width: 100%;
+        }
+
+        .menu-btn > span::before {
+            content: '';
+            top: -8px;
+            width: 100%;
+          }
+
+        .menu-btn > span::after {
+            content: '';
+            top: 8px;
+            width: 100%
+        }
     }
 }
 
