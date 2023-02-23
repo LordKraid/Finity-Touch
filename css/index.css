@@ -565,6 +565,9 @@ img {
   font-size: 28px;
   line-height: 34px;
 }
+.section-5 .content-flex .questions .question-block .title-flex img {
+  margin-left: 50px;
+}
 .section-5 .content-flex .questions .question-block p {
   font-weight: 400;
   font-size: 19px;
