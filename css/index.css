@@ -376,7 +376,6 @@ img {
   -ms-user-select: none;
 }
 .section-3 .section-3_swiper-container .swiper-wrapper .swiper-slide {
-  max-width: 280px;
   overflow: hidden;
   text-align: center;
   background: #0D0D0D;
@@ -443,6 +442,8 @@ img {
 
 .section-4 {
   margin-bottom: 10%;
+  position: relative;
+  z-index: -2;
 }
 .section-4 .swiper-container {
   max-width: 95vw;
@@ -556,35 +557,43 @@ img {
 .section-7 {
   position: relative;
   margin-bottom: 15.5%;
+  /*
+      .deco{
+          position: absolute;
+          z-index: -1;
+          width: 30%;
+
+          img{
+              width: 100%;
+          }
+      }
+
+      .deco-left{
+          left: 100px;
+          top: -150px;
+
+          width: 40%;
+      }
+
+      .deco-right{
+          right: 140px;
+          top: 130px;
+
+          width: 25%;
+      }
+  */
 }
 .section-7 img {
   position: absolute;
+  z-index: -1;
 }
 .section-7 .coin-left {
   left: 60px;
-  top: -100px;
+  top: -350px;
 }
 .section-7 .coin-right {
   right: 152px;
-  top: 250px;
-}
-.section-7 .deco {
-  position: absolute;
-  z-index: -1;
-  width: 30%;
-}
-.section-7 .deco img {
-  width: 100%;
-}
-.section-7 .deco-left {
-  left: 100px;
-  top: -150px;
-  width: 40%;
-}
-.section-7 .deco-right {
-  right: 140px;
-  top: 130px;
-  width: 25%;
+  top: -100px;
 }
 .section-7 .contact-box {
   max-width: 611px;
@@ -1152,9 +1161,9 @@ img {
     letter-spacing: 0.02em;
   }
   .section-5 .content-flex .title .title-img {
-    width: 170%;
+    width: 160%;
     position: relative;
-    right: 110px;
+    right: 30%;
   }
   .section-5 .content-flex .questions .question-block {
     padding-right: 15px;

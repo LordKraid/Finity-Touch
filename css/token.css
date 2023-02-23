@@ -139,6 +139,7 @@ img {
 }
 .section-1 .swiper-container {
   overflow: hidden;
+  padding: 15px 0;
 }
 .section-1 .swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
@@ -268,14 +269,15 @@ img {
 }
 .section-4 img {
   position: absolute;
+  z-index: -1;
 }
 .section-4 .coin-left {
   left: 60px;
-  top: -100px;
+  top: -350px;
 }
 .section-4 .coin-right {
   right: 152px;
-  top: 250px;
+  top: -100px;
 }
 .section-4 .deco {
   position: absolute;
@@ -592,13 +594,18 @@ footer {
     padding: 10px 25px;
   }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide img {
-    width: 30%;
-    margin-top: 30px;
+    width: 90px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
   .section-1 .swiper-container .swiper-wrapper .swiper-slide p {
     font-size: 12px;
     line-height: 15px;
+  }
+  .section-1 .swiper-container .swiper-wrapper .swiper-slide .button {
+    left: 43%;
+    font-size: 15px;
+    line-height: 18px;
   }
   .section-2 {
     text-align: center;
