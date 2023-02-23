@@ -266,6 +266,31 @@ img {
 .section-4 {
   position: relative;
   margin-bottom: 15.5%;
+  /*
+      .deco{
+          position: absolute;
+          z-index: -1;
+          width: 30%;
+
+          img{
+              width: 100%;
+          }
+      }
+
+      .deco-left{
+          left: 100px;
+          top: -150px;
+
+          width: 40%;
+      }
+
+      .deco-right{
+          right: 140px;
+          top: 130px;
+
+          width: 25%;
+      }
+  */
 }
 .section-4 img {
   position: absolute;
@@ -278,24 +303,6 @@ img {
 .section-4 .coin-right {
   right: 152px;
   top: -100px;
-}
-.section-4 .deco {
-  position: absolute;
-  z-index: -1;
-  width: 30%;
-}
-.section-4 .deco img {
-  width: 100%;
-}
-.section-4 .deco-left {
-  left: 100px;
-  top: -150px;
-  width: 40%;
-}
-.section-4 .deco-right {
-  right: 140px;
-  top: 130px;
-  width: 25%;
 }
 .section-4 .contact-box {
   max-width: 611px;
@@ -312,7 +319,7 @@ img {
   margin-bottom: 10%;
 }
 .section-4 .contact-box .forms form {
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 2px solid rgba(239, 57, 255, 0.8);
   text-align: left;
   position: relative;
   /*
@@ -363,7 +370,7 @@ img {
 }
 .section-4 .contact-box button {
   border-radius: 0px 60px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid rgba(239, 57, 255, 0.8);
   background-color: rgba(0, 0, 0, 0);
   filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
   padding: 17px 73px;
