@@ -286,6 +286,71 @@ img{
 }
 
 .section-3{
+    margin-bottom: 18%;
+
+    position: relative;
+
+    text-align: center;
+
+    .deco{
+        position: absolute;
+        z-index: -1;
+
+        width: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .deco-1{
+        top: -600px;
+        right: 0;
+    }
+
+    .deco-2{
+        top: 300px;
+        left: 0;
+    }
+
+    .deco-3{
+        bottom: -350px;
+        right: 0;
+    }
+
+    h1{
+        font-family: 'Chakra Petch', sans-serif;
+
+        font-weight: 600;
+        font-size: 61px;
+        line-height: 79px;
+        letter-spacing: 0.11em;
+
+        margin-bottom: 2.3%;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 155%;
+
+        margin: 0 auto 7.5%;
+
+        max-width: 1113px;
+    }
+
+    .section-3_roadmap{
+        img{
+            width: 100%;
+        }
+
+        .img-adapt{
+            display: none;
+        }
+    }
+}
+
+.section-4{
     position: relative;
     margin-bottom: 15.5%;
 
@@ -337,144 +402,6 @@ img{
         height: 460px;
     }
 
-    .contact-box{
-        max-width: 611px;
-        margin: 0 auto;
-        text-align: center;
-
-        h2{
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 61px;
-
-            margin-bottom: 3.5%;
-        }
-
-        .forms{
-            margin-bottom: 10%;
-
-            form{
-                border-bottom: 2px solid rgba(239, 57, 255, 0.8);
-                text-align: left;
-
-                position: relative;
-
-                input{
-                    padding: 41px 0 20px 10px;
-                    background-color: rgba($color: #000000, $alpha: 0.0);
-
-                    font-family: 'Montserrat', sans-serif;
-
-                    font-weight: 500;
-                    font-size: 28px;
-                    line-height: 34px;
-
-                    color: #FFFFFF;
-
-                    width: 100%;
-                    
-                    -webkit-user-select: none;
-                    -moz-user-select: none;
-                    -ms-user-select: none;
-                }
-
-                input::placeholder{
-                    font-weight: 500;
-                    font-size: 28px;
-                    line-height: 34px;
-    
-                    color: #959595;
-                }
-
-                /*
-                label{
-                    font-weight: 500;
-                    font-size: 28px;
-                    line-height: 34px;
-    
-                    color: #959595;
-
-                    position: absolute;
-
-                    bottom: 20px;
-
-                    transition: 0.3s;
-                }*/
-
-                /*
-                input:focus ~ .label,
-                input:not(:placeholder-shown) ~ .label {
-                    transform: translateY(-30px) translateX(10px) scale(0.75);
-                    //top: 15px;
-                }*/
-            }
-        }
-
-        button{
-            border-radius: 0px 60px;
-            border: 2px solid rgba(239, 57, 255, 0.8);
-            background-color: rgba($color: #000000, $alpha: 0.0);
-
-            filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
-
-            padding: 17px 73px;
-
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 34px;
-
-            color: #FFFFFF;
-        }
-
-        button:hover{
-            background-color: #a355e2;
-        }
-    }
-}
-
-.section-4{
-    position: relative;
-    margin-bottom: 15.5%;
-
-    img{
-        position: absolute;
-        z-index: -1;
-    }
-
-    .coin-left{
-        left: 60px;
-        top: -350px;
-    }
-
-    .coin-right{
-        right: 152px;
-        top: -100px;
-    }
-/*
-    .deco{
-        position: absolute;
-        z-index: -1;
-        width: 30%;
-
-        img{
-            width: 100%;
-        }
-    }
-
-    .deco-left{
-        left: 100px;
-        top: -150px;
-
-        width: 40%;
-    }
-
-    .deco-right{
-        right: 140px;
-        top: 130px;
-
-        width: 25%;
-    }
-*/
     .contact-box{
         max-width: 611px;
         margin: 0 auto;
@@ -842,7 +769,7 @@ footer{
                         padding-top: 5px;
 
                         font-size: 12px;
-                        line-height: 14px;
+                        line-height: 15px;
                     }
                 }
             }
