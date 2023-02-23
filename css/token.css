@@ -217,50 +217,122 @@ img {
 }
 
 .section-3 {
-  margin-bottom: 18%;
   position: relative;
-  text-align: center;
+  margin-bottom: 15.5%;
+}
+.section-3 img {
+  position: absolute;
+  z-index: -1;
+}
+.section-3 .coin-left {
+  left: 60px;
+  top: -100px;
+  z-index: 0;
+}
+.section-3 .coin-right {
+  right: 152px;
+  top: 250px;
+  z-index: 0;
 }
 .section-3 .deco {
   position: absolute;
   z-index: -1;
-  width: 50%;
+  width: 30%;
 }
-.section-3 .deco img {
-  width: 100%;
+.section-3 .deco-left {
+  left: 100px;
+  top: -100px;
+  background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+  filter: blur(100px);
+  width: 460px;
+  height: 494px;
 }
-.section-3 .deco-1 {
-  top: -600px;
-  right: 0;
+.section-3 .deco-right {
+  right: 50px;
+  top: 130px;
+  background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+  filter: blur(100px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 429px;
+  height: 460px;
 }
-.section-3 .deco-2 {
-  top: 300px;
-  left: 0;
+.section-3 .contact-box {
+  max-width: 611px;
+  margin: 0 auto;
+  text-align: center;
 }
-.section-3 .deco-3 {
-  bottom: -350px;
-  right: 0;
+.section-3 .contact-box h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 3.5%;
 }
-.section-3 h1 {
-  font-family: "Chakra Petch", sans-serif;
-  font-weight: 600;
-  font-size: 61px;
-  line-height: 79px;
-  letter-spacing: 0.11em;
-  margin-bottom: 2.3%;
+.section-3 .contact-box .forms {
+  margin-bottom: 10%;
 }
-.section-3 p {
+.section-3 .contact-box .forms form {
+  border-bottom: 2px solid rgba(239, 57, 255, 0.8);
+  text-align: left;
+  position: relative;
+  /*
+  label{
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 34px;
+
+      color: #959595;
+
+      position: absolute;
+
+      bottom: 20px;
+
+      transition: 0.3s;
+  }*/
+  /*
+  input:focus ~ .label,
+  input:not(:placeholder-shown) ~ .label {
+      transform: translateY(-30px) translateX(10px) scale(0.75);
+      //top: 15px;
+  }*/
+}
+.section-3 .contact-box .forms form input {
+  padding: 41px 0 20px 10px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 155%;
-  margin: 0 auto 7.5%;
-  max-width: 1113px;
-}
-.section-3 .section-3_roadmap img {
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
   width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
-.section-3 .section-3_roadmap .img-adapt {
-  display: none;
+.section-3 .contact-box .forms form input::-moz-placeholder {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #959595;
+}
+.section-3 .contact-box .forms form input::placeholder {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #959595;
+}
+.section-3 .contact-box button {
+  border-radius: 0px 60px;
+  border: 2px solid rgba(239, 57, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0);
+  filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
+  padding: 17px 73px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.section-3 .contact-box button:hover {
+  background-color: #a355e2;
 }
 
 .section-4 {
