@@ -83,7 +83,7 @@ img {
 }
 @media (max-width: 900px) {
   header {
-    padding: 25px 30px;
+    padding: 25px 20px;
   }
   header .logo-flex img {
     margin-right: 15px;
@@ -96,7 +96,7 @@ img {
 }
 @media (max-width: 600px) {
   header {
-    padding: 20px 20px;
+    padding: 25px 10px;
   }
   header .logo-flex img {
     margin-right: 15px;
@@ -108,7 +108,7 @@ img {
   }
   header .menu-btn {
     top: 30%;
-    right: 40px;
+    right: 15px;
   }
   header .menu-btn > span {
     width: 100%;
