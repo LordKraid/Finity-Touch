@@ -580,6 +580,8 @@ img {
 .section-5 .content-flex .questions .hide p {
   opacity: 0;
   font-size: 0;
+  line-height: 0;
+  position: absolute;
   margin-top: 0;
 }
 .section-5 .content-flex .questions .question-block:not(:last-child) {
@@ -1262,7 +1264,7 @@ img {
     right: 30%;
   }
   .section-5 .content-flex .questions .question-block {
-    padding-right: 15px;
+    padding: 15px 13px;
   }
   .section-5 .content-flex .questions .question-block .title-flex h3 {
     font-size: 14px;

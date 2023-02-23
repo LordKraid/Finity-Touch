@@ -569,7 +569,7 @@ img {
     right: 30%;
   }
   .section-3 .content-flex .questions .question-block {
-    padding-right: 15px;
+    padding: 15px 13px;
   }
   .section-3 .content-flex .questions .question-block .title-flex h3 {
     font-size: 14px;
