@@ -1242,7 +1242,7 @@ img {
     line-height: 21px;
   }
   .section-5 {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
   .section-5 .content-flex {
     flex-direction: column;
@@ -1270,7 +1270,7 @@ img {
   }
   .section-5 .content-flex .questions .question-block .title-flex img {
     width: 7%;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .section-5 .content-flex .questions .question-block p {
     font-size: 12px;
